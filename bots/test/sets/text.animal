@@ -1,0 +1,5 @@
+
+<category>
+    <pattern><set>animal</set> 有 几 根 #</pattern>
+    <template>variable1=<star index="1"/>  variable2=<star index="2"/> </template>
+</category>
