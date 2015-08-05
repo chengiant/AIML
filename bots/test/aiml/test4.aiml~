@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>你 好</pattern>
+<template>
+<random>
+<li>你好哇</li>
+<li>好久不见呢</li>
+<li>恩恩你好</li>
+</random>
+</template>
+</category>
+
+
+</aiml>

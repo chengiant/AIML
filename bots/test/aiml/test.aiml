@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>*</pattern>
+<template>对不起，木有答案</template>
+</category>
+
+<category>
+<pattern># 有 几 条 腿</pattern>
+<template>匹配到模板1</template>
+</category>
+
+<category>
+<pattern>_ 有 几 条 腿</pattern>
+<template>匹配到模板2</template>
+</category>
+
+<category>
+<pattern>狗 有 几 条 腿</pattern>
+<template>匹配到模板3</template>
+</category>
+
+<category>
+<pattern>^ 有 几 条 腿</pattern>
+<template>匹配到模板4</template>
+</category>
+
+
+<category>
+<pattern>* 有 几 条 腿</pattern>
+<template>匹配到模板5</template>
+</category>
+
+<category>
+<pattern>$猫 有 几 条 腿</pattern>
+<template>匹配到模板6</template>
+</category>
+
+</aiml>

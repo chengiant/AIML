@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>你 喜 欢 打 篮 球 吗</pattern>
+<template><srai>喜 欢 打 篮 球</srai></template>
+</category>
+
+<category>
+<pattern>打 篮 球 你 喜 欢 吗</pattern>
+<template><srai>喜 欢 打 篮 球</srai></template>
+</category>
+
+<category>
+<pattern>喜 欢 打 篮 球</pattern>
+<template>我超级喜欢篮球</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>* 喜 欢 <set>sports_v</set> <set>sports</set> *</pattern>
+<template><srai>是 否 喜 欢 <star index="2"/> <star index="3"/> 吗</srai></template>
+</category>
+
+<category>
+<pattern><set>sports_v</set> <set>sports</set> *　喜 欢 *</pattern>
+<template><srai>是 否 喜 欢 <star index="1"/> <star index="2"/> 吗</srai></template>
+</category>
+
+<category>
+<pattern>* 喜 不 喜 欢 <set>sports_v</set> <set>sports</set> *　</pattern>
+<template><srai>是 否 喜 欢 <star index="2"/> <star index="3"/> 吗</srai></template>
+</category>
+
+<category>
+<pattern>是 否 喜 欢 <set>sports_v</set> <set>sports</set> 吗</pattern>
+<template>我超级喜欢　<star index="1"/> <star index="2"/>　</template>
+</category>
+
+</aiml>
