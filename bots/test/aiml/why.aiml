@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+<pattern> 你 <set>why</set> *</pattern>
+<template><srai><star index="1"/> 呢</srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>why</set> *</pattern>
+<template><srai><star index="2"/> 呢</srai></template>
+</category>
+
+
+
+<category>
+<pattern><set>adjthin</set> * <set>why</set></pattern>
+<template><srai><star index="3"/> 呢</srai></template>
+</category>
+
+
+<category>
+<pattern><set>adjthin</set> * <set>why</set> *</pattern>
+<template><srai><star index="3"/> 呢</srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>adjthin</set> * <set>why</set></pattern>
+<template><srai><star index="3"/> 呢</srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>adjthin</set> * <set>why</set> *</pattern>
+<template><srai><star index="4"/> 呢</srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>adjthin</set> <set>why</set></pattern>
+<template><srai><star index="3"/> 呢</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern><set>why</set> <set>adjthin</set> *</pattern>
+<template><srai><star index="1"/> 呢</srai></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>why</set> <set>adjthin</set> *</pattern>
+<template><srai><star index="2"/> 呢</srai></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>why</set> * <set>adjthin</set> *</pattern>
+<template><srai><star index="2"/> 呢</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern><set>why</set> *</pattern>
+<template><srai><star index="1"/> 呢</srai></template>
+</category>
+
+
+
+<category>
+<pattern><set>why</set> 呢</pattern>
+<template>
+<random>
+<li>这个问题想想都让人头疼</li>
+<li>关于这个是很难说明白的!</li>
+<li>这问题能榨干我的脑仁!</li>
+<li>说起来这个问题，我没什么发言权!</li>
+<li>这个问题，太生涩了!</li>
+</random>
+</template>
+</category>
+</aiml>

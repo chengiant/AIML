@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>* <set>adjthin</set> *</pattern>
+<template><srai><star index="2"/> 吗</srai></template>
+</category>
+
+<category>
+<pattern><set>adjthin</set> 不 <set>adjthin</set></pattern>
+<template><srai><star index="2"/> 吗</srai></template>
+</category>
+
+<category>
+<pattern><set>whom</set> 的 * <set>adjthin</set> *</pattern>
+<template><srai><star index="3"/> 吗</srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>whom</set> <set>adjthin</set> *</pattern>
+<template><srai><star index="3"/> 吗</srai></template>
+</category> 
+
+
+<category>
+<pattern>你 <set>adjthin</set> *</pattern>
+<template><srai><star index="2"/> 吗</srai></template>
+</category>
+
+
+<category>
+<pattern>你 <set>adjthin</set> *</pattern>
+<template><srai><star index="2"/> 吗</srai></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>adjthin</set> 不 <set>adjthin</set></pattern>
+<template><srai><star index="3"/> 吗</srai></template>
+</category>
+
+
+<category>
+<pattern>* 真的 <set>adjthin</set> *</pattern>
+<template><srai><star index="3"/> 吗</srai></template>
+</category>
+
+
+<category>
+<pattern>* 真 *<set>adjthin</set></pattern>
+<template><srai><star index="3"/> 吗</srai></template>
+</category>
+
+
+<category>
+<pattern>* 个 *<set>adjthin</set></pattern>
+<template><srai><star index="3"/> 吗</srai></template>
+</category>
+
+
+<category>
+<pattern>* 个 <set>adjthin</set></pattern>
+<template><srai><star index="2"/> *</srai></template>
+</category>
+
+
+<category>
+<pattern><set>adjthin</set> 吗</pattern>
+<template>
+<random>
+<li><star index="1"/>极了</li>
+<li>简直<star index="1"/></li>
+<li><star index="1"/>啊</li>
+<li>很<star index="1"/></li>
+<li>挺<star index="1"/>的</li>
+<li>因为<star index="1"/>所以<star index="1"/></li>
+</random>
+</template>
+</category>
+</aiml>
