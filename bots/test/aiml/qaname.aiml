@@ -23,7 +23,7 @@
 
 
 <category>
-<pattern>你 <set>qaname</set></pattern>
+<pattern>你 叫 <set>qaname</set></pattern>
 <template><srai><star index="1"/> 呢</srai></template>
 </category>
 
@@ -32,7 +32,7 @@
 <pattern><set>qaname</set> 呢</pattern>
 <template>
 <random>
-<li>你好啊，，在下是小智</li>
+<li>你好啊，在下是小智</li>
 <li>我叫做小智，很高兴认识你啊</li>
 <li>他们都叫我小笨蛋，虽然难听，但是没办法</li>
 <li>我就是人见人爱的小智了!</li>

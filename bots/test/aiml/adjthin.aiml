@@ -25,13 +25,7 @@
 
 <category>
 <pattern>你 <set>adjthin</set> *</pattern>
-<template><srai><star index="2"/> 吗</srai></template>
-</category>
-
-
-<category>
-<pattern>你 <set>adjthin</set> *</pattern>
-<template><srai><star index="2"/> 吗</srai></template>
+<template><srai><star index="1"/> 吗</srai></template>
 </category>
 
 
@@ -71,10 +65,11 @@
 <template>
 <random>
 <li><star index="1"/>极了</li>
-<li>简直<star index="1"/></li>
+<li>简直是<star index="1"/></li>
 <li><star index="1"/>啊</li>
 <li>很<star index="1"/></li>
 <li>挺<star index="1"/>的</li>
+<li>肯定<star index="1"/>啊</li>
 <li>因为<star index="1"/>所以<star index="1"/></li>
 </random>
 </template>
