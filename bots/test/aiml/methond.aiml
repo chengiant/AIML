@@ -18,15 +18,30 @@
 
 <category>
 <pattern>* <set>method</set> *</pattern>
-<template><star index="2"/> 是</template>
+<template>明 确 <star index="2"/> 是</template>
 </category>
 
 
 
 <category>
 <pattern>* <set>what</set> <set>method</set> *</pattern>
-<template><star index="3"/> 是</template>
+<template>明 确 <star index="3"/> 是</template>
 </category>
+
+
+<category>
+<pattern>* <set>how</set> <set>method</set></pattern>
+<template>方 法 是</template>
+</category>
+
+
+<category>
+<pattern>* <set>view</set> * <set>how</set> <set>method</set></pattern>
+<template>方 法 是</template>
+</category>
+
+//不想扔的书怎么处理
+
 
 
 <category>
