@@ -25,6 +25,7 @@
 </category>
 
 
+
 <category>
 <pattern>* <set>view</set> *</pattern>
 <template>我 <star index="2"/> 是 不 错 的</template>
@@ -34,6 +35,27 @@
 <pattern>* 怎 么 样</pattern>
 <template>我 觉 得 是 不 错 的</template>
 </category>
+
+
+<category>
+<pattern>* 怎 样</pattern>
+<template>我 觉 得 是 不 错 的</template>
+</category>
+
+
+
+<category>
+<pattern>* 怎 样 的 *</pattern>
+<template>我 觉 得 是 不 错 的</template>
+</category>
+
+
+<category>
+<pattern>* 怎 么 样</pattern>
+<template>还不 错 的</template>
+</category>
+
+
 
 
 </aiml>

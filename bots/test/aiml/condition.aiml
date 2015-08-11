@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+<pattern>* <set>view</set> * <set>how</set></pattern>
+<template>我 <star index="2"/> 是 不 错 的</template>
+</category>
+
+
+<category>
+<pattern>* <set>how</set> <set>view</set> *</pattern>
+<template>我 <star index="3"/> 是 不 错 的</template>
+</category>
+
+
+<category>
+<pattern>* <set>view</set> *</pattern>
+<template>我 <star index="2"/> 是 不 错 的</template>
+</category>
+
+<category>
+<pattern>* 怎 么 样</pattern>
+<template>还不错的</template>
+</category>
+
+<category>
+<pattern>* <set>how</set></pattern>
+<template>还 不 错 的</template>
+</category>
+
+
+
+
+
+</aiml>
