@@ -44,9 +44,6 @@
 
 
 
-
-
-
 <category>
 <pattern>* 怎 么 样</pattern>
 <template>还不 错 的</template>
@@ -57,7 +54,6 @@
 <pattern>* <set>how</set></pattern>
 <template>还 不 错 的</template>
 </category>
-
 
 
 

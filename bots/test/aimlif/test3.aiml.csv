@@ -1,7 +1,0 @@
-0,你 喜 欢 打 篮 球 吗,*,*,<srai>喜 欢 打 篮 球</srai>,test3.aiml
-0,打 篮 球 你 喜 欢 吗,*,*,<srai>喜 欢 打 篮 球</srai>,test3.aiml
-0,喜 欢 打 篮 球,*,*,我超级喜欢篮球,test3.aiml
-0,* 喜 欢 <SET>SPORTS_V</SET> <SET>SPORTS</SET> *,*,*,<srai>是 否 喜 欢 <star index="2"/> <star index="3"/> 吗</srai>,test3.aiml
-0,<SET>SPORTS_V</SET> <SET>SPORTS</SET> *　喜 欢 *,*,*,<srai>是 否 喜 欢 <star index="1"/> <star index="2"/> 吗</srai>,test3.aiml
-0,* 喜 不 喜 欢 <SET>SPORTS_V</SET> <SET>SPORTS</SET> *　,*,*,<srai>是 否 喜 欢 <star index="2"/> <star index="3"/> 吗</srai>,test3.aiml
-0,是 否 喜 欢 <SET>SPORTS_V</SET> <SET>SPORTS</SET> 吗,*,*,我超级喜欢　<star index="1"/> <star index="2"/>　,test3.aiml
