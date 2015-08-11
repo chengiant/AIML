@@ -44,15 +44,18 @@
 
 
 
-<category>
-<pattern>* 怎 样 的 *</pattern>
-<template>我 觉 得 是 不 错 的</template>
-</category>
+
 
 
 <category>
 <pattern>* 怎 么 样</pattern>
 <template>还不 错 的</template>
+</category>
+
+
+<category>
+<pattern>* <set>how</set></pattern>
+<template>还 不 错 的</template>
 </category>
 
 

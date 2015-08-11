@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
+
 <category>
-<pattern><set></set></pattern>
-<template>variable = <star/></template>
+<pattern>* <set>choice</set> * <set>what</set></pattern>
+<template>我 的 <srai><star index="2"/></srai></template>
 </category>
 
 <category>
-<pattern>* 有 几 只 #</pattern>
-<template>variable1=<star index="1"/>  variable2=<star index="2"/> </template>
+<pattern>* <set>choice</set> *</pattern>
+<template>我 的 <srai><star index="2"/></srai></template>
 </category>
 
 
 <category>
-<pattern><set>animal</set> 有 几 根 #</pattern>
-<template>variable1=<star index="1"/>  variable2=<star index="2"/> </template>
+<pattern><set>choice</set> *</pattern>
+<template>我 的 <srai><star index="１"/></srai></template>
 </category>
+
+
+<category>
+<pattern>*　<set>what</set> <set>choice</set> *</pattern>
+<template>我 的 <srai><star index="3"/></srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>how</set> <set>choice</set> *</pattern>
+<template>我 的 <srai><star index="3"/></srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>how</set> * <set>choice</set></pattern>
+<template>我 的 <srai><star index="4"/></srai></template>
+</category>
+
+
+<category>
+<pattern>*　<set>choice</set> * <set>how</set> *</pattern>
+<template>我 的 <srai><star index="3"/></srai></template>
+</category>
+
+
+<category>
+<pattern><set>choice</set></pattern>
+<template>选择是</template>
+</category>
+
 
 
 </aiml>
