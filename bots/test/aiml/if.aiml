@@ -4,7 +4,7 @@
 
 
 <category>
-<pattern><set>and</set> *</pattern>
+<pattern><set>if</set> *</pattern>
 <template>我猜...假设</template>
 </category>
 

@@ -76,4 +76,25 @@
 <template>具体在...地方</template>
 </category>
 
+
+
+
+<category>
+<pattern>* <set>and</set> * <set>where</set> <set>differ</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>and</set> * <set>differ</set> * <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+
+
+
+
 </aiml>
