@@ -78,5 +78,12 @@
 </category>
 
 
+<category>
+<pattern>* 为 什 么 *</pattern>
+<template>是因为</template>
+</category>
+
+
+
 
 </aiml>
