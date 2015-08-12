@@ -65,6 +65,25 @@
 </category>
 
 
+<category>
+<pattern>* <set>intend</set> <set>choice</set> *</pattern>
+<template>我 选</template>
+</category>
+
+
+<category>
+<pattern>* 想 <set>choice</set> *</pattern>
+<template>我 选</template>
+</category>
+
+
+
+<category>
+<pattern><set>view</set> <set>choice</set> *</pattern>
+<template>我 选</template>
+</category>
+
+
 
 <category>
 <pattern><set>choice</set></pattern>

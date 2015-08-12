@@ -17,6 +17,12 @@
 
 
 <category>
+<pattern><set>how</set> *</pattern>
+<template>方 法 是</template>
+</category>
+
+
+<category>
 <pattern>* <set>method</set> *</pattern>
 <template>明 确 <star index="2"/> 是</template>
 </category>

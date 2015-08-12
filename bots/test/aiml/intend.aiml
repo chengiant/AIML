@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>* <set>intend</set> *</pattern>
+<template>我 <star index="2"/></template>
+</category>
+
+<category>
+<pattern><set>intend</set> *</pattern>
+<template>我 <star index="１"/></template>
+</category>
+
+　
+<category>
+<pattern>* <set>what</set> <set>intend</set> *</pattern>
+<template>我 <star index="3"/></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>what</set> <set>intend</set></pattern>
+<template>我 <star index="3"/></template>
+</category>
+
+
+<category>
+<pattern>* <set>intend</set> * <set>what</set></pattern>
+<template>我 <star index="2"/></template>
+</category>
+
+
+<category>
+<pattern><set>intend</set> <set>what</set> *</pattern>
+<template>我 <star index="1"/></template>
+</category>
+
+
+<category>
+<pattern><set>intend</set></pattern>
+<template>我打算</template>
+</category>
+
+
+
+
+</aiml>
