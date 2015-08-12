@@ -23,9 +23,11 @@
 
 
 
+
+
 <category>
 <pattern>* <set>verb</set> * 吗</pattern>
-<template>我的判断...<star index="2"/></template>
+<template>我的判断...是</template>
 </category>
 
 

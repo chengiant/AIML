@@ -5,19 +5,19 @@
 
 <category>
 <pattern><set>degree</set> *</pattern>
-<template>具体是...数字</template>
+<template>具体是...数字/程度</template>
 </category>
 
 <category>
 <pattern>* <set>degree</set></pattern>
-<template>具体是...数字</template>
+<template>具体是...数字/程度</template>
 </category>
 
 
 
 <category>
 <pattern>* <set>degree</set> *</pattern>
-<template>具体是...数字</template>
+<template>具体是...数字/程度</template>
 </category>
 
 

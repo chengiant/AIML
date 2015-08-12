@@ -25,6 +25,12 @@
 </category>
 
 
+<category>
+<pattern>有 谁 *</pattern>
+<template>我只能给你 一点帮助</template>
+</category>
+
+
 
 
 </aiml>

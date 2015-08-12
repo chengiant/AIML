@@ -7,6 +7,11 @@
 <template>例如...和...</template>
 </category>
 
+category>
+<pattern>* $有 $哪 $些 *</pattern>
+<template>例如...和...</template>
+</category>
+
 <category>
 <pattern>哪 些 *</pattern>
 <template>例如...和...</template>
