@@ -29,5 +29,56 @@
 
 
 
+<category>
+<pattern>* <set>and</set> * <set>differ</set> * <set>what</set></pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+<category>
+<pattern>* <set>and</set> * <set>differ</set></pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+<category>
+<pattern>* <set>and</set> * <set>differ</set> *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+<category>
+<pattern>* 是 <set>where</set> *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+<category>
+<pattern>* 是 <set>where</set></pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+<category>
+<pattern>* 的 *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+<category>
+<pattern>* 与 *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+
+<category>
+<pattern><set>verb</set> * <set>what</set></pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
 
 </aiml>

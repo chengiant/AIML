@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+
+<category>
+<pattern>* 是 谁 *</pattern>
+<template>具体是...一个人</template>
+</category>
+
+
+<category>
+<pattern>* 是 谁</pattern>
+<template>具体是...一个人</template>
+</category>
+
+
+<category>
+<pattern>* 的 <set>name</set> * <set>what</set></pattern>
+<template>具体是...一个人</template>
+</category>
+
+
+
+<category>
+<pattern>* 的 <set>name</set> * <set>what</set> *</pattern>
+<template>具体是...一个人</template>
+</category>
+
+
+</aiml>

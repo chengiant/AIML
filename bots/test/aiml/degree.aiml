@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+
+<category>
+<pattern><set>degree</set> *</pattern>
+<template>具体是...数字</template>
+</category>
+
+<category>
+<pattern>* <set>degree</set></pattern>
+<template>具体是...数字</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>degree</set> *</pattern>
+<template>具体是...数字</template>
+</category>
+
+
+
+</aiml>

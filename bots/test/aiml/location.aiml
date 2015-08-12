@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+<pattern>* 在 <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+<category>
+<pattern>* 在 <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+
+<category>
+<pattern>* 在 * <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+<category>
+<pattern>* 在 <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+
+<category>
+<pattern>* <set>where</set> <set>verb</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>where</set> <set>verb</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+
+<category>
+<pattern>* 从 哪 *</pattern>
+<template>具体从...地方</template>
+</category>
+
+<category>
+<pattern>从 哪 *</pattern>
+<template>具体从...地方</template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+</aiml>

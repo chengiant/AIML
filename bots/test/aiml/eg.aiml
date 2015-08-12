@@ -44,5 +44,13 @@
 
 
 
+<category>
+<pattern><set>what</set> * 好</pattern>
+<template>例如...和...</template>
+</category>
+
+
+
+
 
 </aiml>

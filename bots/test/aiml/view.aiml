@@ -35,15 +35,29 @@
 
 <category>
 <pattern>* <set>how</set> <set>view</set></pattern>
-<template>我 <star index="3"/>的 是...</template>
+<template>我 <star index="3"/>的是...</template>
 </category>
 
 
 
 <category>
 <pattern>* <set>view</set> *</pattern>
-<template>我 <star index="2"/> 的 是</template>
+<template>我 <star index="2"/> 的是...</template>
 </category>
+
+<category>
+<pattern><set>view</set> * <set>verb</set></pattern>
+<template>我 <star index="1"/> 的是...</template>
+</category>
+
+
+<category>
+<pattern><set>view</set> * <set>verb</set> *</pattern>
+<template>我 <star index="1"/> 的是...</template>
+</category>
+
+
+
 
 <category>
 <pattern>* 怎 么 样</pattern>

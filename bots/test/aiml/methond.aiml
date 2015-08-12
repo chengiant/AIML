@@ -17,12 +17,6 @@
 
 
 <category>
-<pattern><set>how</set> *</pattern>
-<template>方 法 是</template>
-</category>
-
-
-<category>
 <pattern>* <set>method</set> *</pattern>
 <template>明 确 <star index="2"/> 是</template>
 </category>
@@ -61,8 +55,11 @@
 <template>我也不知道该怎么办</template>
 </category>
 
+
+
+
 <category>
-<pattern>* <set>hwo</set> 怎 么 办</pattern>
+<pattern>* <set>view</set> 怎 么 办</pattern>
 <template>我也不知道该怎么办</template>
 </category>
 
