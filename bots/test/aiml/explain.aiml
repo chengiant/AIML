@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+<pattern>* 是 <set>what</set></pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+<category>
+<pattern>* 是 <set>what</set> *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+<category>
+<pattern><set>what</set> *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+<category>
+<pattern>* 才 算 *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+
+
+
+
+</aiml>

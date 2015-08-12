@@ -33,7 +33,6 @@
 
 
 
-
 <category>
 <pattern>* <set>how</set> <set>view</set></pattern>
 <template>我 <star index="3"/>的 是...</template>

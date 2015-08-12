@@ -47,14 +47,14 @@
 
 <category>
 <pattern>* <set>and</set> * <set>than</set> *</pattern>
-<template>我  选　择　<star index="3"/></template>
+<template>我  选　择　...</template>
 </category>
 
 
 
 <category>
 <pattern>* <set>and</set> * <set>than</set></pattern>
-<template>我  选　择　<star index="3"/></template>
+<template>我  选　择　...</template>
 </category>
 
 

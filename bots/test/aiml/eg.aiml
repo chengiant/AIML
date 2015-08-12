@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+<pattern>* 哪 些 *</pattern>
+<template>例如...和...</template>
+</category>
+
+<category>
+<pattern>哪 些 *</pattern>
+<template>例如...和...</template>
+</category>
+
+<category>
+<pattern>* 哪 些</pattern>
+<template>例如...和...</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>what</set> <set>than</set> *</pattern>
+<template>例如...和...</template>
+</category>
+
+
+<category>
+<pattern>* <set>what</set> *</pattern>
+<template>例如...和...</template>
+</category>
+
+<category>
+<pattern>* 有 <set>what</set> *</pattern>
+<template>例如...和...</template>
+</category>
+
+
+
+<category>
+<pattern>* 一 些 *</pattern>
+<template>例如...和...</template>
+</category>
+
+
+
+
+</aiml>
