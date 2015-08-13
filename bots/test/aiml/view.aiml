@@ -84,6 +84,13 @@
 </category>
 
 
+<category>
+<pattern>* 的 * 怎 么 样</pattern>
+<template>我 觉 得 ...</template>
+</category>
+
+
+
 
 <category>
 <pattern>* 怎 么 样 的 *</pattern>

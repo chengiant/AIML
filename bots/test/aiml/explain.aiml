@@ -60,11 +60,6 @@
 
 
 
-<category>
-<pattern>* 的 *</pattern>
-<template>通俗来讲就是...</template>
-</category>
-
 
 <category>
 <pattern>* 与 *</pattern>

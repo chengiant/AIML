@@ -43,6 +43,14 @@
 //不想扔的书怎么处理
 
 
+<category>
+<pattern>* <set>verb</set> * <set>method</set> * <set>what</set></pattern>
+<template>方 法 是</template>
+</category>
+
+//除甲醛最 好 的  方法 是 什么
+
+
 
 <category>
 <pattern>* 怎 么 办 *</pattern>
@@ -71,12 +79,40 @@
 
 
 
+
+
 <category>
 <pattern>怎 么 办 *</pattern>
 <template>我也不知道该怎么办</template>
 </category>
 
 
+
+
+<category>
+<pattern>* 的 * 怎 么 办</pattern>
+<template>我也不知道该怎么办</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>* <set>verb</set> * 怎 么 办</pattern>
+<template>我也不知道该怎么办</template>
+</category>
+
+//整理不 好  东西  怎么办
+
+
+
+<category>
+<pattern>* <set>verb</set> 不 <set>verb</set> * 怎 么 办</pattern>
+<template>我也不知道该怎么办</template>
+</category>
+
+//整理不 好  东西  怎么办
 
 
 

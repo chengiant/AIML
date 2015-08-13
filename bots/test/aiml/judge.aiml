@@ -31,6 +31,13 @@
 </category>
 
 
+<category>
+<pattern>* <set>verb</set> * 么</pattern>
+<template>我的判断...是</template>
+</category>
+
+
+
 
 <category>
 <pattern>* 么</pattern>
@@ -74,6 +81,22 @@
 <pattern>* <set>verb</set> 不 <set>verb</set></pattern>
 <template>我的判断是<star index="3"/></template>
 </category>
+
+
+<category>
+<pattern>* 的 <set>verb</set> 不 <set>verb</set></pattern>
+<template>我的判断是<star index="3"/></template>
+</category>
+
+
+
+<category>
+<pattern>* 的 * <set>verb</set> 不 <set>verb</set></pattern>
+<template>我的判断是<star index="3"/></template>
+</category>
+
+
+
 
 
 <category>
@@ -140,6 +163,47 @@
 
 
 
+
+<category>
+<pattern><set>verb</set> * 吗</pattern>
+<template>我的判断是...</template>
+</category>
+
+//真的好吗
+
+
+
+<category>
+<pattern>* <set>prep</set> * <set>direct</set> *</pattern>
+<template>我的判断是...</template>
+</category>
+
+//你在我的南方吗
+
+
+<category>
+<pattern>* <set>prep</set> * <set>what</set> <set>direct</set></pattern>
+<template>我的判断是...</template>
+</category>
+
+//你在我的什么方向
+
+
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>direct</set> *</pattern>
+<template>我的判断是...</template>
+</category>
+//你在南方？
+
+
+<category>
+<pattern>* <set>prep</set> *</pattern>
+<template>我的判断是...</template>
+</category>
+//你在石家庄？
 
 
 

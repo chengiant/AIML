@@ -3,32 +3,6 @@
 
 
 <category>
-<pattern>* 在 <set>where</set></pattern>
-<template>具体在...地方</template>
-</category>
-
-
-
-<category>
-<pattern>* 在 <set>where</set> *</pattern>
-<template>具体在...地方</template>
-</category>
-
-
-<category>
-<pattern>* 在 * <set>where</set> *</pattern>
-<template>具体在...地方</template>
-</category>
-
-
-
-<category>
-<pattern>* 在 <set>where</set> *</pattern>
-<template>具体在...地方</template>
-</category>
-
-
-<category>
 <pattern>* <set>where</set> <set>verb</set></pattern>
 <template>具体在...地方</template>
 </category>
@@ -91,6 +65,65 @@
 <template>具体在...地方</template>
 </category>
 
+
+
+<category>
+<pattern>* <set>and</set> * <set>differ</set> * <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+
+<category>
+<pattern>* <set>prep</set> * <set>what</set> <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+
+//你在我的什么方向呢
+
+
+<category>
+<pattern>* <set>prep</set> * <set>what</set> <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+
+//你在我的什么方向呢
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>what</set> <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+//你在什么地方呢
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>what</set> <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+//你在什么地方？
+
+
+<category>
+<pattern>* <set>prep</set> <set>where</set></pattern>
+<template>具体在...地方</template>
+</category>
+//你在什么地方？
+
+
+<category>
+<pattern>* <set>prep</set> <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+//你在什么地方？
+
+
+<category>
+<pattern><set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+//你在什么地方？
 
 
 
