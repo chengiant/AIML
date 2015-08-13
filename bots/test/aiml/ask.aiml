@@ -32,5 +32,18 @@
 
 
 
+<category>
+<pattern>推 荐 *</pattern>
+<template>推荐...给</template>
+</category>
+
+
+<category>
+<pattern>给 我 *</pattern>
+<template>推荐...给</template>
+</category>
+
+
+
 
 </aiml>

@@ -97,8 +97,6 @@
 
 
 
-
-
 <category>
 <pattern><set>verb</set> 不 <set>verb</set></pattern>
 <template>我的判断是<star index="2"/></template>
@@ -121,6 +119,35 @@
 <category>
 <pattern>* <set>verb</set> 没 <set>verb</set> *</pattern>
 <template>我的判断是<star index="2"/></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>verb</set> 没 <set>verb</set></pattern>
+<template>我的判断是...<star index="2"/></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>verb</set> 没</pattern>
+<template>我的判断是...<star index="2"/></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>verb</set> * 没</pattern>
+<template>我的判断是...<star index="2"/></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>verb</set> * 不</pattern>
+<template>我的判断是...<star index="2"/></template>
 </category>
 
 

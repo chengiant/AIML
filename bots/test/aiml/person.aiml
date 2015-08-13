@@ -15,23 +15,14 @@
 </category>
 
 
+
 <category>
-<pattern>* 的 <set>name</set> * <set>what</set></pattern>
+<pattern>谁 是 *</pattern>
 <template>具体是...一个人</template>
 </category>
 
 
 
-<category>
-<pattern>* 的 <set>name</set> * <set>what</set> *</pattern>
-<template>具体是...一个人</template>
-</category>
-
-
-<category>
-<pattern>* <set>name</set> <set>what</set> *</pattern>
-<template>具体是...一个人</template>
-</category>
 
 
 

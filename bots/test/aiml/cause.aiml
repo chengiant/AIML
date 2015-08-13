@@ -94,7 +94,7 @@
 
 
 <category>
-<pattern>* 的 * <set>cause</set> *</pattern>
+<pattern>* <set>backwd</set> * <set>cause</set> *</pattern>
 <template>是因为...</template>
 </category>
 
@@ -103,7 +103,7 @@
 
 
 <category>
-<pattern>* <set>verb</set> * 的 <set>cause</set> 是 <set>what</set></pattern>
+<pattern>* <set>verb</set> * <set>backwd</set> <set>cause</set> 是 <set>what</set></pattern>
 <template>是因为...</template>
 </category>
 //我爱你  的  原因    是     什么
