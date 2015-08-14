@@ -106,4 +106,20 @@
 
 
 
+<category>
+<pattern>* 是 * <set>how</set></pattern>
+<template>我 觉 得 是</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>verb</set> * <set>choice</set> *</pattern>
+<template>我比较倾向于...</template>
+</category>
+//你 喜欢 香蕉 还是 苹果....？
+
+
+
+
 </aiml>
