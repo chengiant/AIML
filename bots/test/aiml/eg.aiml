@@ -2,6 +2,8 @@
 <aiml>
 
 
+
+
 <category>
 <pattern>* <set>where</set> <set>eg</set> *</pattern>
 <template>例如...和...</template>
@@ -9,12 +11,10 @@
 
 
 
-
 <category>
 <pattern>* <set>verb</set> <set>where</set> <set>eg</set> *</pattern>
 <template>例如...和...</template>
 </category>
-
 
 
 
@@ -43,11 +43,6 @@
 
 
 
-<category>
-<pattern>* <set>verb</set> <set>what</set> *</pattern>
-<template>例如...和...</template>
-</category>
-
 
 <category>
 <pattern>* <set>verb</set> <set>eg</set> <set>what</set> *</pattern>
@@ -71,4 +66,12 @@
 
 
 
+<category>
+<pattern><set>enmu</set> *</pattern>
+<template>例如...和...</template>
+</category>
+
+
+
 </aiml>
+

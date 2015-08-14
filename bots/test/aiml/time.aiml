@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>* <set>what</set> <set>time</set> *</pattern>
+<template>具体是...天</template>
+</category>
+//你 什么 时候 回家
+
+
+<category>
+<pattern>* <set>prep</set> <set>what</set> <set>time</set></pattern>
+<template>具体是...天</template>
+</category>
+//
+
+
+<category>
+<pattern>* <set>prep</set> <set>what</set> <set>time</set> *</pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>where</set> <set>time</set> *</pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>where</set> <set>time</set></pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>where</set> * <set>time</set> *</pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>where</set> * <set>time</set></pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+<category>
+<pattern>* <set>verb</set> <set>verb</set> <set>where</set> <set>time</set></pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+<category>
+<pattern>* <set>verb</set> <set>verb</set> <set>where</set> <set>time</set> *</pattern>
+<template>具体是...哪天</template>
+</category>
+
+
+
+
+
+
+</aiml>

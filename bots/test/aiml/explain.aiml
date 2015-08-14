@@ -109,10 +109,12 @@
 
 
 
+
 <category>
 <pattern>* <set>verb</set> <set>backwd</set> *</pattern>
 <template>通俗来讲就是...</template>
 </category>
+//你 喜欢 的 东西是什么
 
 
 
@@ -120,6 +122,7 @@
 <pattern>* <set>backwd</set> <set>name</set> *</pattern>
 <template>...名字就是...</template>
 </category>
+//你 的 名字 是
 
 
 
@@ -127,6 +130,7 @@
 <pattern>* <set>backwd</set> <set>name</set> * <set>what</set></pattern>
 <template>...名字就是...</template>
 </category>
+//你 的 名字 叫 什么
 
 
 
@@ -134,6 +138,7 @@
 <pattern>* <set>backwd</set> <set>name</set> * <set>what</set> *</pattern>
 <template>...名字就是...</template>
 </category>
+//你 的 名字 叫 什么 呢
 
 
 
@@ -141,8 +146,51 @@
 <pattern>* <set>name</set> <set>what</set> *</pattern>
 <template>...名字就是...</template>
 </category>
+//你 名叫 什么 呢
 
 
+
+<category>
+<pattern>* <set>prep</set> <set>verb</set> <set>what</set> *</pattern>
+<template>我在...<star index="3"/>...</template>
+</category>
+//你 在 做 什么 呢
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>verb</set> <set>what</set></pattern>
+<template>我在...<star index="3"/>...</template>
+</category>
+//你 在 做 什么
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>what</set></pattern>
+<template>我<star index="2"/>...</template>
+</category>
+//你 喜欢 什么
+
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>what</set> *</pattern>
+<template>我<star index="2"/>...</template>
+</category>
+//你 喜欢 什么 呢
+
+
+
+
+
+
+<category>
+<pattern>* <set>backwd</set> *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+//你 喜欢 什么 呢
 
 
 
