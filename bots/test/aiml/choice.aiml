@@ -93,13 +93,5 @@
 
 
 
-<category>
-<pattern>* 还 是 *</pattern>
-<template>选择是...</template>
-</category>
-
-
-
-
 
 </aiml>

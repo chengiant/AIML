@@ -4,45 +4,14 @@
 
 
 <category>
-<pattern>求 *</pattern>
+<pattern><set>ask</set> *</pattern>
 <template>我只能给你一点帮助</template>
 </category>
 
 <category>
-<pattern>* 求 *</pattern>
+<pattern>* <set>ask</set> *</pattern>
 <template>我只能给你一点帮助</template>
 </category>
-
-<category>
-<pattern>请 *</pattern>
-<template>我只能给你 一点帮助</template>
-</category>
-
-
-<category>
-<pattern>谁 能 *</pattern>
-<template>我只能给你 一点帮助</template>
-</category>
-
-
-<category>
-<pattern>有 谁 *</pattern>
-<template>我只能给你 一点帮助</template>
-</category>
-
-
-
-<category>
-<pattern>推 荐 *</pattern>
-<template>推荐...给</template>
-</category>
-
-
-<category>
-<pattern>给 我 *</pattern>
-<template>推荐...给</template>
-</category>
-
 
 
 

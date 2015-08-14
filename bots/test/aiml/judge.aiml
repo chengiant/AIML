@@ -2,37 +2,21 @@
 <aiml>
 
 
-<category>
-<pattern>* 吗</pattern>
-<template>我的判断...</template>
-</category>
-
-
 
 <category>
-<pattern>* <set>verb</set> 吗</pattern>
+<pattern>* <set>verb</set> <set>backwd</set></pattern>
 <template>我的判断...<star index="2"/></template>
 </category>
 
 
-
 <category>
-<pattern>* 有 * 吗</pattern>
-<template>我的判断...有</template>
-</category>
-
-
-
-
-
-<category>
-<pattern>* <set>verb</set> * 吗</pattern>
+<pattern>* <set>verb</set> * <set>backwd</set></pattern>
 <template>我的判断...是</template>
 </category>
 
 
 <category>
-<pattern>* <set>verb</set> * 么</pattern>
+<pattern>* <set>verb</set> * <set>backwd</set></pattern>
 <template>我的判断...是</template>
 </category>
 
@@ -40,24 +24,18 @@
 
 
 <category>
-<pattern>* 么</pattern>
+<pattern>* <set>backwd</set></pattern>
 <template>我的判断...</template>
 </category>
 
 <category>
-<pattern>* 有 * 么</pattern>
+<pattern>* 有 * <set>backwd</set></pattern>
 <template>我的判断...有</template>
 </category>
 
 
 <category>
-<pattern>* 是 * 吗</pattern>
-<template>我的判断...</template>
-</category>
-
-
-<category>
-<pattern>* 是 * 么</pattern>
+<pattern>* 是 * <set>backwd</set></pattern>
 <template>我的判断...</template>
 </category>
 
@@ -71,82 +49,42 @@
 
 
 <category>
-<pattern>* <set>verb</set> 不 <set>verb</set> *</pattern>
-<template>我的判断是<star index="3"/></template>
+<pattern>* <set>verb</set> <set>backwd</set> <set>verb</set> *</pattern>
+<template>我的判断是<star index="2"/></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>verb</set> 不 <set>verb</set></pattern>
-<template>我的判断是<star index="3"/></template>
-</category>
-
-
-<category>
-<pattern>* 的 <set>verb</set> 不 <set>verb</set></pattern>
-<template>我的判断是<star index="3"/></template>
-</category>
-
-
-
-<category>
-<pattern>* 的 * <set>verb</set> 不 <set>verb</set></pattern>
-<template>我的判断是<star index="3"/></template>
-</category>
-
-
-
-<category>
-<pattern><set>verb</set> 不 <set>verb</set></pattern>
+<pattern>* <set>verb</set> <set>backwd</set> <set>verb</set></pattern>
 <template>我的判断是<star index="2"/></template>
 </category>
 
 
 <category>
-<pattern><set>verb</set> 不 <set>verb</set> *</pattern>
-<template>我的判断是<star index="2"/></template>
+<pattern>* <set>backwd</set> <set>verb</set> <set>backwd</set> <set>verb</set></pattern>
+<template>我的判断是<star index="3"/></template>
 </category>
 
 
+
 <category>
-<pattern><set>verb</set> 没 <set>verb</set> *</pattern>
+<pattern>* <set>verb</set> * <set>verb</set> <set>backwd</set> <set>verb</set></pattern>
+<template>我的判断是<star index="3"/></template>
+</category>
+
+
+
+<category>
+<pattern><set>verb</set> <set>backwd</set> <set>verb</set></pattern>
 <template>我的判断是<star index="1"/></template>
 </category>
 
 
 
-<category>
-<pattern>* <set>verb</set> 没 <set>verb</set> *</pattern>
-<template>我的判断是<star index="2"/></template>
-</category>
-
-
-
 
 <category>
-<pattern>* <set>verb</set> 没 <set>verb</set></pattern>
-<template>我的判断是...<star index="2"/></template>
-</category>
-
-
-
-<category>
-<pattern>* <set>verb</set> 没</pattern>
-<template>我的判断是...<star index="2"/></template>
-</category>
-
-
-
-<category>
-<pattern>* <set>verb</set> * 没</pattern>
-<template>我的判断是...<star index="2"/></template>
-</category>
-
-
-
-<category>
-<pattern>* <set>verb</set> * 不</pattern>
+<pattern>* <set>verb</set> * <set>backwd</set></pattern>
 <template>我的判断是...<star index="2"/></template>
 </category>
 
@@ -154,7 +92,7 @@
 
 
 <category>
-<pattern>* <set>and</set> * <set>verb</set> 没 <set>verb</set> *</pattern>
+<pattern>* <set>and</set> * <set>verb</set> <set>backwd</set> <set>verb</set> *</pattern>
 <template>我的判断是<star index="4"/></template>
 </category>
 //我 和 你 有没有 关系
@@ -164,7 +102,7 @@
 <pattern>* <set>and</set> * <set>verb</set> *</pattern>
 <template>我的判断是<star index="4"/></template>
 </category>
-//我和你有关系美?
+//我和你有关系没?
 
 
 
@@ -228,6 +166,13 @@
 
 <category>
 <pattern>* <set>prep</set> *</pattern>
+<template>我的判断是...</template>
+</category>
+//你在石家庄？
+
+
+<category>
+<pattern>* <set>verb</set> <set>prep</set> <set>backwd</set></pattern>
 <template>我的判断是...</template>
 </category>
 //你在石家庄？

@@ -4,23 +4,28 @@
 
 
 <category>
-<pattern>* 是 谁 *</pattern>
+<pattern>* <set>verb</set> <set>who</set> *</pattern>
 <template>具体是...一个人</template>
 </category>
 
 
 <category>
-<pattern>* 是 谁</pattern>
+<pattern>* <set>verb</set> <set>who</set></pattern>
+<template>具体是...一个人</template>
+</category>
+
+
+<category>
+<pattern><set>who</set> <set>verb</set> *</pattern>
 <template>具体是...一个人</template>
 </category>
 
 
 
 <category>
-<pattern>谁 是 *</pattern>
+<pattern><set>who</set> <set>name</set> *</pattern>
 <template>具体是...一个人</template>
 </category>
-
 
 
 

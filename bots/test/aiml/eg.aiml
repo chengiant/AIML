@@ -3,22 +3,28 @@
 
 
 <category>
-<pattern>* 哪 些 *</pattern>
+<pattern>* <set>where</set> <set>eg</set> *</pattern>
 <template>例如...和...</template>
 </category>
 
-category>
-<pattern>* 有 哪 些 *</pattern>
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>where</set> <set>eg</set> *</pattern>
+<template>例如...和...</template>
+</category>
+
+
+
+
+<category>
+<pattern><set>where</set> <set>eg</set> *</pattern>
 <template>例如...和...</template>
 </category>
 
 <category>
-<pattern>哪 些 *</pattern>
-<template>例如...和...</template>
-</category>
-
-<category>
-<pattern>* 哪 些</pattern>
+<pattern>* <set>where</set> <set>eg</set></pattern>
 <template>例如...和...</template>
 </category>
 
@@ -38,14 +44,21 @@ category>
 
 
 <category>
-<pattern>* 有 <set>what</set> *</pattern>
+<pattern>* <set>verb</set> <set>what</set> *</pattern>
+<template>例如...和...</template>
+</category>
+
+
+<category>
+<pattern>* <set>verb</set> <set>eg</set> <set>what</set> *</pattern>
 <template>例如...和...</template>
 </category>
 
 
 
+
 <category>
-<pattern>* 一 些 *</pattern>
+<pattern>* <set>eg</set> *</pattern>
 <template>例如...和...</template>
 </category>
 
@@ -55,8 +68,6 @@ category>
 <pattern><set>what</set> * 好</pattern>
 <template>例如...和...</template>
 </category>
-
-
 
 
 
