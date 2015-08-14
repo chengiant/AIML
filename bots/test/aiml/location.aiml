@@ -133,8 +133,9 @@
 //你 想 居住 在 哪里？
 
 
+
 <category>
-<pattern>* <set>verb</set> * <set>prep</set> <set>where</set> 呢</pattern>
+<pattern>* <set>verb</set> <set>verb</set> <set>where</set> *</pattern>
 <template>具体在...地方</template>
 </category>
 //你 想 居住 在 哪里？
@@ -153,19 +154,10 @@
 
 
 <category>
-<pattern>* <set>verb</set> * <set>prep</set> <set>what</set> <set>where</set> 呢</pattern>
+<pattern>* <set>verb</set> * <set>prep</set> <set>what</set> <set>where</set> *</pattern>
 <template>具体在...地方</template>
 </category>
-//你 想 居住 在 哪里？
-
-
-
-
-<category>
-<pattern>* <set>verb</set> <set>prep</set> <set>what</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
-</category>
-//你 想 居住 在 哪里？
+//你 想 居住 在 哪里 呢？
 
 
 
@@ -184,6 +176,15 @@
 <template>具体在...地方</template>
 </category>
 //你 想 去  什么   地方  呢？
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>prep</set> <set>what</set> <set>where</set> *</pattern>
+<template>具体在...地方</template>
+</category>
+//奥运 会 在 什么 地方 举办？
+
 
 
 
