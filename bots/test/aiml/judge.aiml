@@ -179,4 +179,22 @@
 
 
 
+<category>
+<pattern><set>verb</set> <set>backwd</set> <set>verb</set> *</pattern>
+<template>我的判断是...</template>
+</category>
+//该 不 该....？
+
+
+
+
+<category>
+<pattern>* <set>verb</set> * <set>choice</set> *</pattern>
+<template>我 <star index="2"/>...</template>
+</category>
+//你 喜欢 香蕉 还是 苹果....？
+
+
+
+
 </aiml>
