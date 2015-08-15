@@ -15,6 +15,43 @@
 </category>
 
 
+
+<category>
+<pattern>* <set>verb</set> <set>backwd</set> * <set>is</set> <set>who</set></pattern>
+<template>具体是...一个人</template>
+</category>
+//* 害怕 的 * 是 谁?
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>backwd</set> * <set>is</set> <set>who</set> *</pattern>
+<template>具体是...一个人</template>
+</category>
+//* 害怕 的 * 是 谁 *?
+
+
+
+
+
+<category>
+<pattern>* <set>verb</set> * <set>backwd</set> * <set>is</set> <set>who</set></pattern>
+<template>具体是...一个人</template>
+</category>
+//让你 流 过最多眼泪 的 人 是 谁?
+
+
+
+
+<category>
+<pattern>* <set>verb</set> * <set>backwd</set> * <set>is</set> <set>who</set></pattern>
+<template>具体是...一个人</template>
+</category>
+//* 流 * 的 * 是 谁 *?
+
+
+
+
 <category>
 <pattern><set>who</set> <set>verb</set> *</pattern>
 <template>具体是...一个人</template>

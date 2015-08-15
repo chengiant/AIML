@@ -3,16 +3,18 @@
 
 
 <category>
-<pattern>* 是 <set>what</set></pattern>
+<pattern>* <set>is</set> <set>what</set></pattern>
 <template>通俗来讲就是...</template>
 </category>
 
 
 
 <category>
-<pattern>* 是 <set>what</set> *</pattern>
+<pattern>* <set>is</set> <set>what</set> *</pattern>
 <template>通俗来讲就是...</template>
 </category>
+//这 是 什么 呢
+
 
 
 <category>
@@ -46,23 +48,9 @@
 
 
 
-<category>
-<pattern>* 是 <set>where</set> *</pattern>
-<template>通俗来讲就是...</template>
-</category>
-
-
 
 <category>
-<pattern>* 是 <set>where</set></pattern>
-<template>通俗来讲就是...</template>
-</category>
-
-
-
-
-<category>
-<pattern>* 与 *</pattern>
+<pattern>* <set>and</set> *</pattern>
 <template>通俗来讲就是...</template>
 </category>
 
@@ -73,12 +61,18 @@
 <pattern><set>verb</set> * <set>what</set></pattern>
 <template>通俗来讲就是...</template>
 </category>
+//喜欢 我 什么?
+
+
 
 
 <category>
 <pattern><set>verb</set> * <set>what</set> *</pattern>
 <template>通俗来讲就是...</template>
 </category>
+//喜欢 我 什么 呢?
+
+
 
 
 <category>
@@ -86,6 +80,9 @@
 <template>通俗来讲就是...</template>
 </category>
 //你 喜欢 我 什么 呢
+
+
+
 
 <category>
 <pattern>* <set>verb</set> * <set>what</set></pattern>
@@ -111,7 +108,7 @@
 
 
 <category>
-<pattern>* <set>verb</set> <set>backwd</set> *</pattern>
+<pattern>* <set>verb</set> <set>backwd</set> * <set>is</set> <set>what</set></pattern>
 <template>通俗来讲就是...</template>
 </category>
 //你 喜欢 的 东西是什么
@@ -184,13 +181,23 @@
 
 
 
-
-
 <category>
 <pattern>* <set>backwd</set> *</pattern>
 <template>通俗来讲就是...</template>
 </category>
 //你 喜欢 什么 呢
+
+
+
+
+
+<category>
+<pattern>* <set>and</set> * <set>backwd</set> * <set>is</set> *</pattern>
+<template>通俗来讲就是...</template>
+</category>
+//* 和 * 的 * 是 *
+
+
 
 
 

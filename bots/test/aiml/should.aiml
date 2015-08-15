@@ -60,7 +60,10 @@
 <template>我的建议是...</template>
 </category>
 
-
+<category>
+<pattern><set>where</set> <set>eg</set> * <set>verb</set> *</pattern>
+<template>我的建议是...</template>
+</category>
 
 
 </aiml>

@@ -35,14 +35,14 @@
 
 
 <category>
-<pattern>* 是 * <set>backwd</set></pattern>
+<pattern>* <set>is</set> * <set>backwd</set></pattern>
 <template>我的判断...</template>
 </category>
 
 
 
 <category>
-<pattern>* 是 否 *</pattern>
+<pattern>* <set>can</set> *</pattern>
 <template>我的判断...</template>
 </category>
 
@@ -156,7 +156,6 @@
 
 
 
-
 <category>
 <pattern>* <set>prep</set> <set>direct</set> *</pattern>
 <template>我的判断是...</template>
@@ -186,13 +185,33 @@
 //该 不 该....？
 
 
+//下面都是 "是" ------------------------------------------------------------------------------------
 
 
 <category>
-<pattern>* <set>verb</set> * <set>choice</set> *</pattern>
-<template>我 <star index="2"/>...</template>
+<pattern><set>is</set> <set>backwd</set> <set>is</set> *</pattern>
+<template>我的判断是...</template>
 </category>
-//你 喜欢 香蕉 还是 苹果....？
+//是 不 是....？
+
+
+
+<category>
+<pattern><set>is</set> <set>backwd</set> <set>is</set></pattern>
+<template>我的判断是...</template>
+</category>
+//是 不 是....？
+
+
+
+<category>
+<pattern>* <set>is</set> <set>backwd</set> <set>is</set></pattern>
+<template>我的判断是...</template>
+</category>
+//是 不 是....？
+
+
+
 
 
 
