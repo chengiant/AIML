@@ -109,4 +109,18 @@
 //我爱你  的  原因    是     什么
 
 
+
+
+
+
+
+<category>
+<pattern>* <set>cause</set> <set>verb</set> *</pattern>
+<template>是因为...</template>
+</category>
+
+
+
+
+
 </aiml>
