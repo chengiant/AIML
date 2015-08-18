@@ -11,9 +11,17 @@
 
 
 <category>
-<pattern><set>how</set> *</pattern>
-<template>方 法 是</template>
+<pattern><set>how</set> * SPLITER *</pattern>
+<template><srai>方法 SPLITER <star index="3"/></srai></template>
 </category>
+
+<category>
+<pattern>方法 SPLITER ROOT * dobj Weiyu * BinYu * Tag v</pattern>
+<template><star index="1"/> 的方法嘛,貌似有不少咧,不知道你的侧重什么呢</template>
+</category>
+
+
+
 
 
 <category>
