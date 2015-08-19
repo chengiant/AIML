@@ -37,7 +37,7 @@
 
 
 <category>
-<pattern>* <set>what</set> *</pattern>
+<pattern>* <set>what</set> * SPLITER *</pattern>
 <template>例如...和...</template>
 </category>
 

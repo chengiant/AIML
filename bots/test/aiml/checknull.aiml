@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+<pattern>CHECKNULL * SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="2"/></set></think>
+<think><set name="zhuyu"><star index="3"/></set></think>
+<think><set name="weiyu"><star index="4"/></set></think>
+<think><set name="bingyu"><star index="5"/></set></think>
+<condition name="zhuyu">
+<li value="null"><srai>主空 SPLITER ROOT <star index="2"/> ZhuYu <star index="3"/> WeiYu <star index="4"/> BinYu <star index="5"/> Tag <star index="6"/></srai></li>
+<li><srai>主OK SPLITER ROOT <star index="2"/> ZhuYu <star index="3"/> WeiYu <star index="4"/> BinYu <star index="5"/> Tag <star index="6"/></srai></li>
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>主空 SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="1"/></set></think>
+<think><set name="zhuyu"><star index="2"/></set></think>
+<think><set name="weiyu"><star index="3"/></set></think>
+<think><set name="bingyu"><star index="4"/></set></think>
+<condition name="weiyu">
+<li value="null"><srai>主空谓空 SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> WeiYu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></li>
+<li><srai>主空谓OK SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> WeiYu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>主OK SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="1"/></set></think>
+<think><set name="zhuyu"><star index="2"/></set></think>
+<think><set name="weiyu"><star index="3"/></set></think>
+<think><set name="bingyu"><star index="4"/></set></think>
+<condition name="weiyu">
+<li value="null"><srai>主OK谓空 SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> WeiYu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></li>
+<li><srai>主OK谓OK SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> WeiYu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>主空谓空 SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="1"/></set></think>
+<think><set name="zhuyu"><star index="2"/></set></think>
+<think><set name="weiyu"><star index="3"/></set></think>
+<think><set name="bingyu"><star index="4"/></set></think>
+<condition name="bingyu">
+<li value="null">OK</li>
+<li>BOK</li>
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>主空谓OK SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="1"/></set></think>
+<think><set name="zhuyu"><star index="2"/></set></think>
+<think><set name="weiyu"><star index="3"/></set></think>
+<think><set name="bingyu"><star index="4"/></set></think>
+<condition name="bingyu">
+<li value="null">WOK</li>
+<li>WBOK</li>
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>主OK谓空 SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="1"/></set></think>
+<think><set name="zhuyu"><star index="2"/></set></think>
+<think><set name="weiyu"><star index="3"/></set></think>
+<think><set name="bingyu"><star index="4"/></set></think>
+<condition name="bingyu">
+<li value="null">ZOK</li>
+<li>ZBOK</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>主OK谓OK SPLITER ROOT * ZhuYu * WeiYu * BinYu * Tag *</pattern>
+<template>
+<think><set name="root"><star index="1"/></set></think>
+<think><set name="zhuyu"><star index="2"/></set></think>
+<think><set name="weiyu"><star index="3"/></set></think>
+<think><set name="bingyu"><star index="4"/></set></think>
+<condition name="bingyu">
+<li value="null">ZWOK</li>
+<li>ZWBOK</li>
+</condition>
+</template>
+</category>
+
+
+</aiml>

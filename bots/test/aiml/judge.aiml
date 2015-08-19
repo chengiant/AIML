@@ -4,134 +4,126 @@
 
 
 <category>
-<pattern>* <set>verb</set> <set>backwd</set></pattern>
-<template>我的判断...<star index="2"/></template>
+<pattern>* <set>verb</set> <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
 <category>
-<pattern>* <set>verb</set> * <set>backwd</set></pattern>
-<template>我的判断...是</template>
-</category>
-
-
-<category>
-<pattern>* <set>verb</set> * <set>backwd</set></pattern>
-<template>我的判断...是</template>
-</category>
-
-
-
-
-<category>
-<pattern>* <set>backwd</set></pattern>
-<template>我的判断...</template>
-</category>
-
-<category>
-<pattern>* 有 * <set>backwd</set></pattern>
-<template>我的判断...有</template>
-</category>
-
-
-<category>
-<pattern>* <set>is</set> * <set>backwd</set></pattern>
-<template>我的判断...</template>
+<pattern>* <set>verb</set> * <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>can</set> *</pattern>
-<template>我的判断...</template>
+<pattern>* <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="3"/></srai></template>
+</category>
+
+<category>
+<pattern>* 有 *  <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>is</set> * <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>verb</set> <set>backwd</set> <set>verb</set> *</pattern>
-<template>我的判断是<star index="2"/></template>
+<pattern>* <set>can</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>verb</set> <set>backwd</set> <set>verb</set></pattern>
-<template>我的判断是<star index="2"/></template>
-</category>
-
-
-<category>
-<pattern>* <set>backwd</set> <set>verb</set> <set>backwd</set> <set>verb</set></pattern>
-<template>我的判断是<star index="3"/></template>
+<pattern><set>verb</set> <set>tag</set> <set>verb</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>verb</set> * <set>verb</set> <set>backwd</set> <set>verb</set></pattern>
-<template>我的判断是<star index="3"/></template>
+<pattern>* <set>verb</set> <set>tag</set> <set>verb</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern><set>verb</set> <set>backwd</set> <set>verb</set></pattern>
-<template>我的判断是<star index="1"/></template>
+<pattern>* <set>verb</set> <set>tag</set> <set>verb</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+<category>
+<pattern>* <set>backwd</set> <set>tag</set> <set>backwd</set> <set>verb</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 
 
+<category>
+<pattern>* <set>verb</set> * <set>tag</set> <set>backwd</set> <set>verb</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="7"/></srai></template>
+</category>
+
+
 
 <category>
-<pattern>* <set>verb</set> * <set>backwd</set></pattern>
-<template>我的判断是...<star index="2"/></template>
+<pattern>* <set>verb</set> * <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 
 
 
 
 <category>
-<pattern>* <set>and</set> * <set>verb</set> <set>backwd</set> <set>verb</set> *</pattern>
-<template>我的判断是<star index="4"/></template>
+<pattern>* <set>and</set> * <set>verb</set> <set>tag</set> <set>verb</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="8"/></srai></template>
 </category>
 //我 和 你 有没有 关系
 
 
 <category>
-<pattern>* <set>and</set> * <set>verb</set> *</pattern>
-<template>我的判断是<star index="4"/></template>
+<pattern>* <set>and</set> * <set>verb</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 //我和你有关系没?
 
 
 
 <category>
-<pattern>* <set>and</set> * <set>where</set> *</pattern>
-<template>我的判断是...<star index="1"/></template>
+<pattern>* <set>and</set> * <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 
 
 
 <category>
-<pattern><set>can</set> *</pattern>
-<template>我的判断是...</template>
+<pattern><set>can</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="3"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>can</set> *</pattern>
-<template>我的判断是...</template>
+<pattern>* <set>can</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
 
 
 <category>
-<pattern><set>verb</set> * 吗</pattern>
-<template>我的判断是...</template>
+<pattern><set>verb</set> * <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 //真的好吗
@@ -139,16 +131,16 @@
 
 
 <category>
-<pattern>* <set>prep</set> * <set>direct</set> *</pattern>
-<template>我的判断是...</template>
+<pattern>* <set>prep</set> * <set>direct</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 //你在我的南方吗
 
 
 <category>
-<pattern>* <set>prep</set> * <set>what</set> <set>direct</set></pattern>
-<template>我的判断是...</template>
+<pattern>* <set>prep</set> * <set>what</set> <set>direct</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 //你在我的什么方向
@@ -157,56 +149,57 @@
 
 
 <category>
-<pattern>* <set>prep</set> <set>direct</set> *</pattern>
-<template>我的判断是...</template>
+<pattern>* <set>prep</set> <set>direct</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 //你在南方？
 
 
 <category>
-<pattern>* <set>prep</set> *</pattern>
-<template>我的判断是...</template>
+<pattern>* <set>prep</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 //你在石家庄？
 
 
 <category>
-<pattern>* <set>verb</set> <set>prep</set> <set>backwd</set></pattern>
-<template>我的判断是...</template>
+<pattern>* <set>verb</set> <set>prep</set> <set>tag</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
-//你在石家庄？
+
+
 
 
 
 <category>
-<pattern><set>verb</set> <set>backwd</set> <set>verb</set> *</pattern>
-<template>我的判断是...</template>
+<pattern><set>verb</set> <set>tag</set> <set>verb</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
-//该 不 该....？
+//该 不 该 呢？
 
 
-//下面都是 "是" ------------------------------------------------------------------------------------
+
 
 
 <category>
-<pattern><set>is</set> <set>backwd</set> <set>is</set> *</pattern>
-<template>我的判断是...</template>
+<pattern><set>is</set> <set>tag</set> <set>is</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 //是 不 是....？
 
 
 
 <category>
-<pattern><set>is</set> <set>backwd</set> <set>is</set></pattern>
-<template>我的判断是...</template>
+<pattern><set>is</set> <set>tag</set> <set>is</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 //是 不 是....？
 
 
 
 <category>
-<pattern>* <set>is</set> <set>backwd</set> <set>is</set></pattern>
-<template>我的判断是...</template>
+<pattern>* <set>is</set> <set>tag</set> <set>is</set> SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 //是 不 是....？
 
