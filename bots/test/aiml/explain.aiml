@@ -220,7 +220,11 @@
 //只有主语的情况
 <category>
 <pattern>解释 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>关于 <star index="2"/> 的我好难解释明白啊</template>
+<template>
+<random>
+<li>关于 <star index="2"/> 的我好难解释明白啊</li>
+</random>
+</template>
 </category>
 
 
@@ -228,7 +232,11 @@
 //只有谓语的情况
 <category>
 <pattern>解释 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>关于 <star index="3"/> 的我好难解释明白啊</template>
+<template>
+<random>
+<li>关于 <star index="3"/> 的我好难解释明白啊</li>
+</random>
+</template>
 </category>
 
 
@@ -236,7 +244,11 @@
 //只有宾语的情况
 <category>
 <pattern>解释 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>解释 <star index="4"/> 对于我而言有点难,人家还小嘛</template>
+<template>
+<random>
+<li>解释 <star index="4"/> 对于我而言有点难,人家还小嘛</li>
+</random>
+</template>
 </category>
 
 
@@ -246,7 +258,11 @@
 //谓宾都有的情况
 <category>
 <pattern>解释 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>关于<star index="3"/> <star index="4"/>之类的说起来很高深的,让人伤脑筋</template>
+<template>
+<random>
+<li>关于<star index="3"/> <star index="4"/>之类的说起来很高深的,让人伤脑筋</li>
+</random>
+</template>
 </category>
 
 
@@ -254,7 +270,11 @@
 //主谓都有的情况
 <category>
 <pattern>解释 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>关于<star index="2"/><star index="3"/>之类的解释起来超难,让人伤脑筋</template>
+<template>
+<random>
+<li>关于<star index="2"/><star index="3"/>之类的解释起来超难,让人伤脑筋</li>
+</random>
+</template>
 </category>
 
 
@@ -262,14 +282,22 @@
 //主宾都有的情况
 <category>
 <pattern>解释 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>关于<star index="2"/><star index="4"/>之类的解释起来很高深的,让人伤脑筋</template>
+<template>
+<random>
+<li>关于<star index="2"/><star index="4"/>之类的解释起来很高深的,让人伤脑筋</li>
+</random>
+</template>
 </category>
 
 
 //主谓宾都有的情况
 <category>
 <pattern>解释 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>关于<star index="2"/><star index="3"/><star index="4"/>之类的解释起来很高深的,太让人伤脑筋</template>
+<template>
+<random>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>之类的解释起来很高深的,太让人伤脑筋</li>
+</random>
+</template>
 </category>
 
 
@@ -279,9 +307,15 @@
 //都没有的情况
 <category>
 <pattern>解释 OK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>你揍我吧,可怜的我真的不知道这是什么!</template>
+<template>
+<random>
+<li>你揍我吧,可怜的我真的不知道这是什么!</li>
+<li>你打我屁股我,你打我,我也不知道这是什么啊</li>
+<li>我要是说我知道这是什么你别打我行吗</li>
+<li>放过我吧,我真的不知道这是什么</li>
+</random>
+</template>
 </category>
-
 
 
 
