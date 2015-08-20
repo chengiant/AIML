@@ -3,48 +3,48 @@
 
 
 <category>
-<pattern><set>cause</set></pattern>
+<pattern><set>cause</set> SPLITER ROOT *</pattern>
 <template><srai><star index="1"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>cause</set> *</pattern>
+<pattern>* <set>cause</set> * SPLITER ROOT *</pattern>
 <template><srai><star index="2"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>how</set> * <set>cause</set> *</pattern>
+<pattern>* <set>how</set> * <set>cause</set> * SPLITER ROOT *</pattern>
 <template><srai><star index="4"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>how</set> <set>cause</set></pattern>
+<pattern>* <set>how</set> <set>cause</set> SPLITER ROOT *</pattern>
 <template><srai><star index="3"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern><set>how</set> <set>cause</set></pattern>
+<pattern><set>how</set> <set>cause</set> SPLITER ROOT *</pattern>
 <template><srai><star index="2"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>how</set> <set>cause</set> *</pattern>
+<pattern>* <set>how</set> <set>cause</set> * SPLITER ROOT *</pattern>
 <template><srai><star index="3"/></srai></template>
 </category>
 
 
 <category>
-<pattern>* <set>how</set> * <set>cause</set></pattern>
+<pattern>* <set>how</set> * <set>cause</set> SPLITER ROOT *</pattern>
 <template><srai><star index="4"/></srai></template>
 </category>
 
@@ -52,40 +52,40 @@
 
 
 <category>
-<pattern>* <set>what</set> <set>cause</set> *</pattern>
+<pattern>* <set>what</set> <set>cause</set> * SPLITER ROOT *</pattern>
 <template><srai><star index="3"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern><set>cause</set> *</pattern>
+<pattern><set>cause</set> * SPLITER ROOT *</pattern>
 <template><srai><star index="1"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>cause</set></pattern>
+<pattern>* <set>cause</set> SPLITER ROOT *</pattern>
 <template><srai><star index="2"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern><set>cause</set></pattern>
+<pattern><set>cause</set> SPLITER ROOT *</pattern>
 <template>是因为</template>
 </category>
 
 
 <category>
-<pattern>* 为 什 么 *</pattern>
+<pattern>* 为 什 么 * SPLITER ROOT *</pattern>
 <template>是因为</template>
 </category>
 
 
 <category>
-<pattern>* 是 为 什 么</pattern>
+<pattern>* 是 为 什 么 SPLITER ROOT *</pattern>
 <template>是因为</template>
 </category>
 
@@ -94,7 +94,7 @@
 
 
 <category>
-<pattern>* <set>backwd</set> * <set>cause</set> *</pattern>
+<pattern>* <set>backwd</set> * <set>cause</set> * SPLITER ROOT *</pattern>
 <template>是因为...</template>
 </category>
 
@@ -103,7 +103,7 @@
 
 
 <category>
-<pattern>* <set>verb</set> * <set>backwd</set> <set>cause</set> 是 <set>what</set></pattern>
+<pattern>* <set>verb</set> * <set>backwd</set> <set>cause</set> 是 <set>what</set> SPLITER ROOT *</pattern>
 <template>是因为...</template>
 </category>
 //我爱你  的  原因    是     什么
@@ -115,7 +115,7 @@
 
 
 <category>
-<pattern>* <set>cause</set> <set>verb</set> *</pattern>
+<pattern>* <set>cause</set> <set>verb</set> * SPLITER ROOT *</pattern>
 <template>是因为...</template>
 </category>
 
