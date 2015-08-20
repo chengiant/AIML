@@ -4,8 +4,12 @@
 
 
 <category>
-<pattern><set>doubt</set> *</pattern>
+<pattern><set>doubt</set> * SPLITER ROOT *</pattern>
 <template>无凭无据,不足为信</template>
+<template>你从哪里听来的传言啊,可别轻易相信小心被骗了</template>
+<template>小道消息,少相信为妙</template>
+<template>你都从哪力挺来这么不靠谱的消息啊,我只信上帝的</template>
+<template>不要太迷恋这些传闻好不好</template>
 </category>
 
 

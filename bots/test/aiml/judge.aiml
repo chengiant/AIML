@@ -222,7 +222,11 @@
 <pattern>判断 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="3"/></li>
+<li>必然 <star index="3"/> 啊</li>
+<li>必然不 <star index="3"/> 啊</li>
+<li>肯定 <star index="3"/> 啊</li>
+<li>绝对不 <star index="3"/> 啊</li>
+<li>肯定不 <star index="3"/> 啊</li>
 </random>
 </template>
 </category>
@@ -261,7 +265,10 @@
 <pattern>判断 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="3"/> <star index="4"/></li>
+<li><star index="3"/><star index="4"/>这种事情很难断言的</li>
+<li><star index="3"/><star index="4"/>这种事情,我不敢轻易判断</li>
+<li><star index="3"/><star index="4"/>之类的,我不能判断出来</li>
+<li>关于<star index="3"/><star index="4"/>,俺不敢轻易替你做判断啊</li>
 </random>
 </template>
 </category>
@@ -274,7 +281,11 @@
 <pattern>判断 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="2"/> <star index="3"/></li>
+<li><star index="2"/>必然是<star index="3"/>啊</li>
+<li><star index="2"/>必然不是<star index="3"/>啊</li>
+<li><star index="2"/>肯定不是<star index="3"/>啊</li>
+<li><star index="2"/>肯定是<star index="3"/>啊</li>
+<li><star index="2"/>绝对是<star index="3"/>啊</li>
 </random>
 </template>
 </category>
@@ -287,7 +298,10 @@
 <pattern>判断 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="2"/> <star index="4"/></li>
+<li><star index="2"/><star index="4"/>这种事情很难断言的</li>
+<li><star index="2"/><star index="4"/>这种事情,我不敢轻易判断</li>
+<li><star index="2"/><star index="4"/>之类的,我不能判断出来</li>
+<li>关于<star index="2"/><star index="4"/>,俺不敢轻易替你做判断啊</li>
 </random>
 </template>
 </category>
@@ -300,9 +314,11 @@
 <pattern>判断 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>
-<star index="2"/> 必然 <star index="3"/> <star index="4"/> 啊
-</li>
+<li><star index="2"/>必然是<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>必然不是<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>肯定不是<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>肯定是<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>绝对是<star index="3"/><star index="4"/>啊</li>
 </random>
 </template>
 </category>
@@ -316,10 +332,13 @@
 <template>
 <random>
 <li>别让我做这种判断题好不好,我还小啊</li>
+<li>伦家最害怕最判断题了,俺还小啊</li>
+<li>面对这种判断题,我好怕怕啊!</li>
+<li>你再让我做判断题,我画个圈圈诅咒你!</li>
+<li>人家还没学会发音呢,你就让我做判断题,你太狠心了!</li>
 </random>
 </template>
 </category>
-
 
 
 

@@ -261,6 +261,10 @@
 <template>
 <random>
 <li>关于<star index="3"/> <star index="4"/>之类的说起来很高深的,让人伤脑筋</li>
+<li>关于<star index="3"/><star index="4"/>这种的讲起来很意会的,会让我伤透脑筋的</li>
+<li>关于<star index="3"/><star index="4"/>之类的讲述起来很隐晦的,嘘!</li>
+<li>关于<star index="3"/><star index="4"/>这类的扩展起来很多的,你叫我从何说起呢</li>
+<li>关于<star index="3"/><star index="4"/>的嘛,如果非要我解释的话,脑袋会炸的</li>
 </random>
 </template>
 </category>
@@ -273,6 +277,10 @@
 <template>
 <random>
 <li>关于<star index="2"/><star index="3"/>之类的解释起来超难,让人伤脑筋</li>
+<li>关于<star index="2"/><star index="3"/>这种的讲起来很意会的,会让我伤透脑筋的</li>
+<li>关于<star index="2"/><star index="3"/>之类的讲述起来很隐晦的,嘘!</li>
+<li>关于<star index="2"/><star index="3"/>这类的扩展起来很多的,你叫我从何说起呢</li>
+<li>关于<star index="2"/><star index="3"/>的嘛,如果非要我解释的话,脑袋会炸的</li>
 </random>
 </template>
 </category>
@@ -285,9 +293,15 @@
 <template>
 <random>
 <li>关于<star index="2"/><star index="4"/>之类的解释起来很高深的,让人伤脑筋</li>
+<li>关于<star index="2"/><star index="4"/>这种的讲起来很意会的,会让我伤透脑筋的</li>
+<li>关于<star index="2"/><star index="4"/>之类的讲述起来很隐晦的,嘘!</li>
+<li>关于<star index="2"/><star index="4"/>这类的扩展起来很多的,你叫我从何说起呢</li>
+<li>关于<star index="2"/><star index="4"/>的嘛,如果非要我解释的话,脑袋会炸的</li>
 </random>
 </template>
 </category>
+
+
 
 
 //主谓宾都有的情况
@@ -296,6 +310,10 @@
 <template>
 <random>
 <li>关于<star index="2"/><star index="3"/><star index="4"/>之类的解释起来很高深的,太让人伤脑筋</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>这种的讲起来很意会的,会让我伤透脑筋的</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>之类的讲述起来很隐晦的,嘘!</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>这类的扩展起来很多的,你叫我从何说起呢</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>的嘛,如果非要我解释的话,脑袋会炸的</li>
 </random>
 </template>
 </category>
