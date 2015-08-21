@@ -24,6 +24,35 @@
 
 
 
+<category>
+<pattern><set>verb</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
+
+
+
+
+
+<category>
+<pattern>* <set>is</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern>* <set>prep</set> <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
+
+
 
 <category>
 <pattern>* 从 哪 * SPLITER ROOT *</pattern>
@@ -35,13 +64,6 @@
 <template><srai>地方 SPLITER ROOT <star index="2"/></srai></template>
 </category>
 
-
-
-
-<category>
-<pattern>* <set>where</set> * SPLITER ROOT *</pattern>
-<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
-</category>
 
 
 
@@ -194,10 +216,6 @@
 
 
 
-
-
-
-
 <category>
 <pattern>地方 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>地方<srai>地方 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
@@ -211,7 +229,7 @@
 <pattern>地方 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/>,我有权保留我的观点</li>
+<li>关于<star index="2"/>这地方</li>
 <li>有关<star index="2"/>的事情,我的态度中立</li>
 <li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
 <li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
