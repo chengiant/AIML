@@ -211,7 +211,7 @@
 
 <category>
 <pattern>判断 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template><srai>判断 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template>判断<srai>判断 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 
@@ -281,11 +281,11 @@
 <pattern>判断 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="2"/>必然是<star index="3"/>啊</li>
-<li><star index="2"/>必然不是<star index="3"/>啊</li>
-<li><star index="2"/>肯定不是<star index="3"/>啊</li>
-<li><star index="2"/>肯定是<star index="3"/>啊</li>
-<li><star index="2"/>绝对是<star index="3"/>啊</li>
+<li><star index="2"/>必然<star index="3"/>啊</li>
+<li><star index="2"/>必然不<star index="3"/>啊</li>
+<li><star index="2"/>肯定不<star index="3"/>啊</li>
+<li><star index="2"/>肯定<star index="3"/>啊</li>
+<li><star index="2"/>绝对<star index="3"/>啊</li>
 </random>
 </template>
 </category>
@@ -314,11 +314,11 @@
 <pattern>判断 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="2"/>必然是<star index="3"/><star index="4"/>啊</li>
-<li><star index="2"/>必然不是<star index="3"/><star index="4"/>啊</li>
-<li><star index="2"/>肯定不是<star index="3"/><star index="4"/>啊</li>
-<li><star index="2"/>肯定是<star index="3"/><star index="4"/>啊</li>
-<li><star index="2"/>绝对是<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>必然<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>必然不<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>肯定不<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>肯定<star index="3"/><star index="4"/>啊</li>
+<li><star index="2"/>绝对<star index="3"/><star index="4"/>啊</li>
 </random>
 </template>
 </category>

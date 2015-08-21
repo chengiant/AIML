@@ -3,140 +3,140 @@
 
 
 <category>
-<pattern>* <set>where</set> <set>verb</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>where</set> <set>verb</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>where</set> <set>verb</set> *</pattern>
-<template>具体在...地方</template>
-</category>
-
-
-
-
-<category>
-<pattern>* <set>verb</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>where</set> <set>verb</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 
 
 
 
 <category>
-<pattern>* 从 哪 *</pattern>
-<template>具体从...地方</template>
-</category>
-
-<category>
-<pattern>从 哪 *</pattern>
-<template>具体从...地方</template>
+<pattern>* <set>verb</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 
 
 
 
 <category>
-<pattern>* <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* 从 哪 * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
-
-
 <category>
-<pattern>* <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>从 哪 * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="2"/></srai></template>
 </category>
 
 
 
 
 <category>
-<pattern>* <set>and</set> * <set>where</set> <set>differ</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>and</set> * <set>differ</set> * <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="3"/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>and</set> * <set>where</set> <set>differ</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 
 
 <category>
-<pattern>* <set>and</set> * <set>differ</set> * <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>and</set> * <set>differ</set> * <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="7"/></srai></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>and</set> * <set>differ</set> * <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 
 
 <category>
-<pattern>* <set>prep</set> * <set>what</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
-</category>
-
-//你在我的什么方向呢
-
-
-<category>
-<pattern>* <set>prep</set> * <set>what</set> <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>prep</set> * <set>what</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 
 //你在我的什么方向呢
 
 
+<category>
+<pattern>* <set>prep</set> * <set>what</set> <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+
+//你在我的什么方向呢
+
+
 
 <category>
-<pattern>* <set>prep</set> <set>what</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>prep</set> <set>what</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 //你在什么地方呢
 
 
 
 <category>
-<pattern>* <set>prep</set> <set>what</set> <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>prep</set> <set>what</set> <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 //你在什么地方？
 
 
 <category>
-<pattern>* <set>prep</set> <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>prep</set> <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 //你在什么地方？
 
 
 <category>
-<pattern>* <set>prep</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>prep</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
 </category>
 //你在什么地方？
 
 
 <category>
-<pattern><set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern><set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="3"/></srai></template>
 </category>
 //你在什么地方？
 
 
 <category>
-<pattern>* <set>verb</set> * <set>prep</set> <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> * <set>prep</set> <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 //你 想 居住 在 哪里？
 
 
 
 <category>
-<pattern>* <set>verb</set> <set>verb</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> <set>verb</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 //你 想 居住 在 哪里？
 
@@ -144,8 +144,8 @@
 
 
 <category>
-<pattern>* <set>verb</set> * <set>prep</set> <set>what</set> <set>where</set></pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> * <set>prep</set> <set>what</set> <set>where</set> SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 //你 想 居住 在 哪里？
 
@@ -154,16 +154,16 @@
 
 
 <category>
-<pattern>* <set>verb</set> * <set>prep</set> <set>what</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> * <set>prep</set> <set>what</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="8"/></srai></template>
 </category>
 //你 想 居住 在 哪里 呢？
 
 
 
 <category>
-<pattern>* <set>verb</set> <set>prep</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> <set>prep</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 //你 想 居住 在 哪里  呢？
 
@@ -172,18 +172,181 @@
 
 
 <category>
-<pattern>* <set>verb</set> <set>verb</set> <set>what</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> <set>verb</set> <set>what</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 //你 想 去  什么   地方  呢？
 
 
 
 <category>
-<pattern>* <set>verb</set> <set>prep</set> <set>what</set> <set>where</set> *</pattern>
-<template>具体在...地方</template>
+<pattern>* <set>verb</set> <set>prep</set> <set>what</set> <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 //奥运 会 在 什么 地方 举办？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<category>
+<pattern>地方 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>地方<srai>地方 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+</category>
+
+
+
+
+//只有主语的情况
+<category>
+<pattern>地方 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="2"/>,我有权保留我的观点</li>
+<li>有关<star index="2"/>的事情,我的态度中立</li>
+<li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="2"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+
+//只有谓语的情况
+<category>
+<pattern>地方 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="3"/>,我有权保留我的观点</li>
+<li>有关<star index="3"/>的事情,我的态度中立</li>
+<li>对于<star index="3"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="3"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+//只有宾语的情况
+<category>
+<pattern>地方 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="4"/>,我有权保留我的观点</li>
+<li>有关<star index="4"/>的事情,我的态度中立</li>
+<li>对于<star index="4"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="4"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+
+
+//谓宾都有的情况
+<category>
+<pattern>地方 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="3"/><star index="4"/>,我有权保留我的观点</li>
+<li>有关<star index="3"/><star index="4"/>的事情,我的态度中立</li>
+<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+//主谓都有的情况
+<category>
+<pattern>地方 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="2"/><star index="3"/>,我有权保留我的观点</li>
+<li>有关<star index="2"/><star index="3"/>的事情,我的态度中立</li>
+<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="2"/><star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="2"/><star index="3"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+//主宾都有的情况
+<category>
+<pattern>地方 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="2"/><star index="4"/>,我有权保留我的观点</li>
+<li>有关<star index="2"/><star index="4"/>的事情,我的态度中立</li>
+<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="2"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="2"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+
+//主谓宾都有的情况
+<category>
+<pattern>地方 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>,我有权保留我的观点</li>
+<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我的态度中立</li>
+<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+</random>
+</template>
+</category>
+
+
+
+
+
+//都没有的情况
+<category>
+<pattern>地方 OK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
+<template>
+<random>
+<li>你逼我亮出观点,这不是明显的逼良为娼么</li>
+<li>你逼我说出立场,这不是典型的逼我上梁山么</li>
+<li>让我说出观点,简直比登天还难</li>
+<li>我觉得我不能太轻易地摆出我的观点来</li>
+</random>
+</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

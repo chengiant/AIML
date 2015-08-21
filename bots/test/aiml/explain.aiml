@@ -211,7 +211,7 @@
 
 <category>
 <pattern>解释 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template><srai>解释 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template>解释<srai>解释 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 //
 

@@ -160,7 +160,7 @@
 
 <category>
 <pattern>方法 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template><srai>方法 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template>方法<srai>方法 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 //匹配 如 何...
 
