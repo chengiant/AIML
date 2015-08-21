@@ -2,6 +2,31 @@
 <aiml>
 
 
+<category>
+<pattern><set>verb</set> <set>where</set> <set>eg</set> * SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>where</set> <set>eg</set> SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>where</set> <set>one</set> * SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+
+
+
+
 
 
 <category>
@@ -23,10 +48,36 @@
 <template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
+
 <category>
 <pattern>* <set>where</set> <set>eg</set> SPLITER ROOT *</pattern>
 <template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
 </category>
+
+
+
+
+<category>
+<pattern><set>where</set> <set>eg</set> SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>prep</set> <set>where</set> <set>eg</set> * SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="7"/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>verb</set> <set>verb</set> <set>where</set> <set>eg</set> * SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="7"/></srai></template>
+</category>
+
 
 
 
@@ -70,6 +121,8 @@
 <pattern><set>enmu</set> * SPLITER ROOT *</pattern>
 <template><srai>举例 SPLITER ROOT <star index="3"/></srai></template>
 </category>
+
+
 
 
 
