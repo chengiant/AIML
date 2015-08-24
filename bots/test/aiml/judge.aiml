@@ -121,7 +121,6 @@
 
 
 
-
 <category>
 <pattern><set>verb</set> * <set>tag</set> SPLITER ROOT *</pattern>
 <template><srai>判断 SPLITER ROOT <star index="4"/></srai></template>
@@ -210,6 +209,26 @@
 
 
 <category>
+<pattern>* <set>is</set> <set>tag</set> <set>is</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+//是 不 是....？
+
+
+
+
+
+
+<category>
+<pattern><set>prep</set> * <set>where</set> <set>one</set> * SPLITER ROOT *</pattern>
+<template><srai>判断 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+//是 不 是....？
+
+
+
+
+<category>
 <pattern>判断 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>判断<srai>判断 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
@@ -239,7 +258,10 @@
 <pattern>判断 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="4"/></li>
+<li>单从<star index="4"/>来说,有点难以判断啊</li>
+<li>只从<star index="4"/>来看,不好判断啊</li>
+<li>只看<star index="4"/>来话,我判断不出来啊</li>
+<li>只考虑<star index="4"/>来话,兵补好做判断</li>
 </random>
 </template>
 </category>
@@ -252,7 +274,10 @@
 <pattern>判断 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="2"/></li>
+<li>单从<star index="2"/>来说,有点难以判断啊</li>
+<li>只从<star index="2"/>来看,不好判断啊</li>
+<li>只看<star index="2"/>来话,我判断不出来啊</li>
+<li>只考虑<star index="2"/>来话,兵补好做判断</li>
 </random>
 </template>
 </category>

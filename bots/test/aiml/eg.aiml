@@ -30,6 +30,15 @@
 
 
 <category>
+<pattern>* <set>is</set> <set>where</set> <set>eg</set> * SPLITER ROOT *</pattern>
+<template><srai>举例 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+
+
+
+
+
+<category>
 <pattern>* <set>where</set> <set>eg</set> * SPLITER ROOT *</pattern>
 <template><srai>举例 SPLITER ROOT <star index="5"/></srai></template>
 </category>
@@ -87,11 +96,6 @@
 </category>
 
 
-<category>
-<pattern>* <set>what</set> * SPLITER ROOT *</pattern>
-<template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
-</category>
-
 
 
 
@@ -104,14 +108,7 @@
 
 
 <category>
-<pattern>* <set>eg</set> * SPLITER ROOT *</pattern>
-<template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
-</category>
-
-
-
-<category>
-<pattern><set>what</set> * 好 SPLITER ROOT *</pattern>
+<pattern><set>what</set> * <set>backwd</set> 好 SPLITER ROOT *</pattern>
 <template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
@@ -121,15 +118,6 @@
 <pattern><set>enmu</set> * SPLITER ROOT *</pattern>
 <template><srai>举例 SPLITER ROOT <star index="3"/></srai></template>
 </category>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -152,11 +140,11 @@
 <pattern>举例 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/>呢,抱歉我很难给你举出例子来</li>
+<li>有关<star index="2"/>啊,我没有办法为你一一列举啊</li>
+<li>对于<star index="2"/>来说,我很想给你举个例子,但是我举不出来</li>
+<li>关于<star index="2"/>,我无法为你举出例子来</li>
+<li>对不起主人,就<star index="2"/>而言,我不能为你举例</li>
 </random>
 </template>
 </category>
@@ -169,11 +157,11 @@
 <pattern>举例 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li>关于你所描述的呢,抱歉我很难给你举出例子来</li>
+<li>有关你提问的,我没有办法为你一一列举啊</li>
+<li>对于大人您说的内容,我很想给你举个例子,但是我举不出来</li>
+<li>关于陛下您所提到的,我无法为你举出例子来</li>
+<li>对不起主人,就您所说的而言,我不能为你举例</li>
 </random>
 </template>
 </category>
@@ -185,10 +173,10 @@
 <pattern>举例 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
+<li>关于<star index="4"/>,抱歉我很难给你举出例子来</li>
+<li>有关<star index="4"/>的事情,,我没有办法为你一一列举啊</li>
+<li>对于<star index="4"/>这个事儿嘛,我很想给你举个例子,但是我举不出来</li>
+<li>关于<star index="4"/>的话,我无法为你举出例子来</li>
 <li>在<star index="4"/>这个事儿上,我有权保持我的态度</li>
 </random>
 </template>
@@ -203,11 +191,11 @@
 <pattern>举例 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="3"/><star index="4"/>方面,抱歉我很难给你举出例子来</li>
+<li>有关<star index="3"/><star index="4"/>的事情,我没有办法为你一一列举啊</li>
+<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我很想给你举个例子,但是我举不出来</li>
+<li>关于<star index="3"/><star index="4"/>的话,我无法为你举出例子来</li>
+<li>在<star index="3"/><star index="4"/>这个事儿上,而言,我不能为你举例</li>
 </random>
 </template>
 </category>
@@ -219,11 +207,11 @@
 <pattern>举例 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/><star index="3"/>的,抱歉我很难给你举出例子来</li>
+<li>有关<star index="2"/><star index="3"/>的事情,我没有办法为你一一列举啊</li>
+<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我很想给你举个例子,但是我举不出来</li>
+<li>关于<star index="2"/><star index="3"/>的话,我无法为你举出例子来</li>
+<li>在<star index="2"/><star index="3"/>这个事儿上,我不能为你举例</li>
 </random>
 </template>
 </category>
@@ -235,11 +223,11 @@
 <pattern>举例 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/><star index="4"/>方面,抱歉我很难给你举出例子来</li>
+<li>有关<star index="2"/><star index="4"/>的事情,我没有办法为你一一列举啊</li>
+<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我很想给你举个例子,但是我举不出来</li>
+<li>关于<star index="2"/><star index="4"/>的话,我无法为你举出例子来</li>
+<li>在<star index="2"/><star index="4"/>这个事儿上,我不能为你举例</li>
 </random>
 </template>
 </category>
@@ -252,11 +240,11 @@
 <pattern>举例 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>方面,抱歉我很难给你举出例子来</li>
+<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我没有办法为你一一列举啊</li>
+<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我很想给你举个例子,但是我举不出来</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,我无法为你举出例子来</li>
+<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我不能为你举例</li>
 </random>
 </template>
 </category>
@@ -270,10 +258,10 @@
 <pattern>举例 OK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>你逼我亮出观点,这不是明显的逼良为娼么</li>
-<li>你逼我说出立场,这不是典型的逼我上梁山么</li>
-<li>让我说出观点,简直比登天还难</li>
-<li>我觉得我不能太轻易地摆出我的观点来</li>
+<li>报告陛下,我真的不知道该给您举什么样的例子</li>
+<li>恕小的还年轻,不能为您举出例子来</li>
+<li>在下愚笨,不能给你举出了例子来</li>
+<li>我并不擅长举例啊</li>
 </random>
 </template>
 </category>

@@ -82,11 +82,11 @@
 <pattern>建议 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="3"/>的请求嘛,嘿嘿,我的能力不够诶!</li>
-<li><star index="3"/>这请求嘛,请恕我无能为力!</li>
-<li><star index="3"/>这要求,对我来说太苛刻了</li>
-<li><star index="3"/>这请求,我好难帮你啊!</li>
-<li><star index="2"/>的请求,我没法帮到你啊,要不你找我爹地帮忙吧</li>
+<li>陛下您说的<star index="3"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="3"/>的这事情,草民不敢妄加建议</li>
+<li>报告大王关于<star index="3"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="3"/>这个事情,陛下就别为难民女给您建议了</li>
+<li>对于<star index="2"/>非要让小的给您建议,那我建议您买个大宝剑,慢慢就有剑意了</li>
 </random>
 </template>
 </category>
@@ -99,11 +99,11 @@
 <pattern>建议 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="3"/>的请求嘛,嘿嘿,我的能力不够诶!</li>
-<li><star index="3"/>这请求嘛,请恕我无能为力!</li>
-<li><star index="3"/>这要求,对我来说太苛刻了</li>
-<li><star index="3"/>这请求,我好难帮你啊!</li>
-<li><star index="3"/>的请求,我没法帮到你啊,要不你找我爹地帮忙吧</li>
+<li>陛下您说的<star index="3"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="3"/>的这事情,草民不敢妄加建议</li>
+<li>报告大王关于<star index="3"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="3"/>这个事情,陛下就别为难民女给您建议了</li>
+<li>对于<star index="3"/>非要让小的给您建议,那我建议您买个大宝剑,慢慢就有剑意了</li>
 </random>
 </template>
 </category>
@@ -115,11 +115,11 @@
 <pattern>建议 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li><star index="4"/>的请求嘛,嘿嘿,我的能力不够诶!</li>
-<li><star index="4"/>这请求嘛,请恕我无能为力!</li>
-<li><star index="4"/>这要求,对我来说太苛刻了</li>
-<li><star index="4"/>这请求,我好难帮你啊!</li>
-<li><star index="4"/>的请求,我没法帮到你啊,要不你找我爹地帮忙吧!</li>
+<li>陛下您说的<star index="4"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="4"/>的这,草民不敢妄加建议</li>
+<li>报告大王关于<star index="4"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="4"/>这个事情,陛下就别为难民女给您建议了</li>
+<li>对于<star index="4"/>的请求,我没法帮到你啊,要不你找我爹地帮忙吧!</li>
 </random>
 </template>
 </category>
@@ -133,10 +133,10 @@
 <pattern>建议 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>陛下您说的<star index="3"/><star index="4"/>,小的不敢给您建议啊</li>
-<li>大王您说的<star index="3"/><star index="4"/>的这,草民不敢妄加建议</li>
-<li>报告大王关于<star index="3"/><star index="4"/>这些,臣毫无建议啊</li>
-<li>关于<star index="3"/><star index="4"/>这个,陛下就别为难民女给您建议了</li>
+<li>陛下您说的<star index="3"/><star index="4"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="3"/><star index="4"/>的这事情,草民不敢妄加建议</li>
+<li>报告大王关于<star index="3"/><star index="4"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="3"/><star index="4"/>这个事情,陛下就别为难民女给您建议了</li>
 <li>对于<star index="3"/><star index="4"/>非要让小的给您建议,那我建议您买个大宝剑,慢慢就有剑意了</li>
 </random>
 </template>
@@ -149,10 +149,10 @@
 <pattern>建议 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>陛下您说的<star index="2"/><star index="3"/>,小的不敢给您建议啊</li>
-<li>大王您说的<star index="2"/><star index="3"/>的这,草民不敢妄加建议</li>
-<li>报告大王关于<star index="2"/><star index="3"/>这些,臣毫无建议啊</li>
-<li>关于<star index="2"/><star index="3"/>这个,陛下就别为难民女给您建议了</li>
+<li>陛下您说的<star index="2"/><star index="3"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="2"/><star index="3"/>的这事情,草民不敢妄加建议</li>
+<li>报告大王关于<star index="2"/><star index="3"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="2"/><star index="3"/>这个事情,陛下就别为难民女给您建议了</li>
 <li>对于<star index="2"/><star index="3"/>非要让小的给您建议,那我建议您买个大宝剑,慢慢就有剑意了</li>
 </random>
 </template>
@@ -165,10 +165,10 @@
 <pattern>建议 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>陛下您说的<star index="2"/><star index="4"/>,小的不敢给您建议啊</li>
-<li>大王您说的<star index="2"/><star index="4"/>的这,草民不敢妄加建议</li>
-<li>报告大王关于<star index="2"/><star index="4"/>这些,臣毫无建议啊</li>
-<li>关于<star index="2"/><star index="4"/>这个,陛下就别为难民女给您建议了</li>
+<li>陛下您说的<star index="2"/><star index="4"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="2"/><star index="4"/>的这事情,草民不敢妄加建议</li>
+<li>报告大王关于<star index="2"/><star index="4"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="2"/><star index="4"/>这个事情,陛下就别为难民女给您建议了</li>
 <li>对于<star index="2"/><star index="4"/>非要让小的给您建议,那我建议您买个大宝剑,慢慢就有剑意了</li>
 </random>
 </template>
@@ -182,10 +182,10 @@
 <pattern>建议 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>陛下您说的<star index="2"/><star index="3"/><star index="4"/>,小的不敢给您建议啊</li>
-<li>大王您说的<star index="2"/><star index="3"/><star index="4"/>的这,草民不敢妄加建议</li>
-<li>报告大王关于<star index="2"/><star index="3"/><star index="4"/>这些,臣毫无建议啊</li>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>这个,陛下就别为难民女给您建议了</li>
+<li>陛下您说的<star index="2"/><star index="3"/><star index="4"/>这事情,小的不敢给您建议啊</li>
+<li>大王您说的<star index="2"/><star index="3"/><star index="4"/>的这事情,草民不敢妄加建议</li>
+<li>报告大王关于<star index="2"/><star index="3"/><star index="4"/>这些的,臣毫无建议啊</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>这个事,陛下就别为难民女给您建议了</li>
 <li>对于<star index="2"/><star index="3"/><star index="4"/>非要让小的给您建议,那我建议您买个大宝剑,慢慢就有剑意了</li>
 </random>
 </template>

@@ -15,6 +15,23 @@
 </category>
 
 
+<category>
+<pattern>* <set>is</set> <set>who</set> SPLITER ROOT *</pattern>
+<template><srai>人 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>is</set> <set>who</set> * SPLITER ROOT *</pattern>
+<template><srai>人 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
+
 
 <category>
 <pattern>* <set>verb</set> <set>backwd</set> * <set>is</set> <set>who</set> SPLITER ROOT *</pattern>
@@ -52,12 +69,6 @@
 
 
 
-<category>
-<pattern><set>who</set> <set>verb</set> * SPLITER ROOT *</pattern>
-<template><srai>人 SPLITER ROOT <star index="4"/></srai></template>
-</category>
-
-
 
 <category>
 <pattern><set>who</set> <set>name</set> * SPLITER ROOT *</pattern>
@@ -83,11 +94,11 @@
 <pattern>人 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/>,对啊,当然是个银喽</li>
+<li><star index="2"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="2"/>,当然是个人啦</li>
+<li><star index="2"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="2"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>
@@ -100,14 +111,16 @@
 <pattern>人 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="3"/>,对啊,当然是个银喽</li>
+<li><star index="3"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="3"/>,当然是个人啦</li>
+<li><star index="3"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="3"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>
+
+
 
 
 
@@ -116,11 +129,11 @@
 <pattern>人 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="4"/>,对啊,当然是个银喽</li>
+<li><star index="4"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="4"/>,当然是个人啦</li>
+<li><star index="4"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="4"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>
@@ -134,11 +147,11 @@
 <pattern>人 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="3"/><star index="4"/>,对啊,当然是个银喽</li>
+<li><star index="3"/><star index="4"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="3"/><star index="4"/>,当然是个人啦</li>
+<li><star index="3"/><star index="4"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="3"/><star index="4"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>
@@ -150,11 +163,11 @@
 <pattern>人 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="3"/>,对啊,当然是个银喽</li>
+<li><star index="2"/><star index="3"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="2"/><star index="3"/>,当然是个人啦</li>
+<li><star index="2"/><star index="3"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="2"/><star index="3"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>
@@ -166,11 +179,11 @@
 <pattern>人 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="4"/>,对啊,当然是是个银喽</li>
+<li><star index="2"/><star index="4"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="2"/><star index="4"/>,当然是个人啦</li>
+<li><star index="2"/><star index="4"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="2"/><star index="4"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>
@@ -183,11 +196,11 @@
 <pattern>人 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="3"/><star index="4"/>,对啊,当然是个银喽</li>
+<li><star index="2"/><star index="3"/><star index="4"/>,你找他有事吗,可是我并不人是这个人啊</li>
+<li><star index="2"/><star index="3"/><star index="4"/>,当然是个人啦</li>
+<li><star index="2"/><star index="3"/><star index="4"/>,不就是个人名么,难道还是名人?</li>
+<li><star index="2"/><star index="3"/><star index="4"/>,这个人是个美女吗,介绍给我呗,嘿嘿!</li>
 </random>
 </template>
 </category>

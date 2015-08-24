@@ -202,6 +202,29 @@
 
 
 
+<category>
+<pattern>* <set>like</set> <set>what</set> SPLITER ROOT *</pattern>
+<template><srai>解释 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+//* 和 * 的 * 是 *
+
+
+
+
+<category>
+<pattern>* <set>is</set> * <set>how</set> * SPLITER ROOT *</pattern>
+<template><srai>解释 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+...是...怎样的
+
+
+
+
+<category>
+<pattern>* <set>what</set> * SPLITER ROOT *</pattern>
+<template><srai>解释 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
 
 
 

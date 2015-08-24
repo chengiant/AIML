@@ -103,7 +103,7 @@
 
 
 <category>
-<pattern>* <set>verb</set> * <set>backwd</set> <set>cause</set> 是 <set>what</set> SPLITER ROOT *</pattern>
+<pattern>* <set>verb</set> * <set>backwd</set> <set>cause</set> <set>is</set> <set>what</set> SPLITER ROOT *</pattern>
 <template><srai>因为 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 //我爱你  的  原因    是     什么
@@ -122,7 +122,7 @@
 
 <category>
 <pattern>因为 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template><srai>因为 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template>因为<srai>因为 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 

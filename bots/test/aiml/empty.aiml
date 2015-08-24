@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+
+<category>
+<pattern> * </pattern>
+<template>陛下,臣实在猜不透您的意图啊</template>
+<template>大王小的斗胆请您在说一遍方才的提问好吗</template>
+<template>大人的话,下官难以揣测啊</template>
+<template>报告老板,您所指代的,属下全然不懂哎</template>
+<template>回禀皇上,圣上所言,臣等毫不知情啊,还请陛下三思!</template>
+</category>
+
+
+
+
+
+</aiml>

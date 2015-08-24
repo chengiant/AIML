@@ -25,6 +25,14 @@
 
 
 
+<category>
+<pattern>* <set>verb</set> <set>degree</set> * SPLITER ROOT *</pattern>
+<template><srai>数字 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
 
 
 
@@ -45,11 +53,11 @@
 <pattern>数字 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/>具体是多少呢,一提到算数,我就懵了</li>
+<li><star index="2"/>这个数字有点大吧</li>
+<li><star index="2"/>这个数很庞大的</li>
+<li><star index="2"/>这个没多少</li>
+<li><star index="2"/>这个数不大</li>
 </random>
 </template>
 </category>
@@ -62,11 +70,11 @@
 <pattern>数字 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li>就你说的事情的数据比较庞大</li>
+<li>你提到的事情所包含的数字挺大的</li>
+<li>按陛下所问,数量极大</li>
+<li>报告大王,很多</li>
+<li>小的真不知道这数是多少</li>
 </random>
 </template>
 </category>
@@ -78,11 +86,11 @@
 <pattern>数字 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="4"/>的话,我想是很大的一个数吧</li>
+<li>对于<star index="4"/>这个数应该不小</li>
+<li>关于<star index="4"/>数字适合就好了</li>
+<li>就<star index="4"/>来说应该是一个适中的数</li>
+<li><star index="4"/>这个数应该不少</li>
 </random>
 </template>
 </category>
@@ -96,11 +104,11 @@
 <pattern>数字 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="3"/><star index="4"/>这个事的话,我想是很大的一个数吧</li>
+<li><star index="3"/><star index="4"/>这个数应该不小</li>
+<li><star index="3"/><star index="4"/>数字适合就好了</li>
+<li><star index="3"/><star index="4"/>应该是一个适中的数</li>
+<li><star index="3"/><star index="4"/>这个数应该不少</li>
 </random>
 </template>
 </category>
@@ -112,11 +120,11 @@
 <pattern>数字 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="3"/>这个事的话,我想是很大的一个数吧</li>
+<li><star index="2"/><star index="3"/>这个数应该不小</li>
+<li><star index="2"/><star index="3"/>数字适合就好了</li>
+<li><star index="2"/><star index="3"/>应该是一个适中的数</li>
+<li><star index="2"/><star index="3"/>这个数应该不少</li>
 </random>
 </template>
 </category>
@@ -128,11 +136,11 @@
 <pattern>数字 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="4"/>这个事的话,我想是很大的一个数吧</li>
+<li><star index="2"/><star index="4"/>这个数应该不小</li>
+<li><star index="2"/><star index="4"/>数字适合就好了</li>
+<li><star index="2"/><star index="4"/>应该是一个适中的数</li>
+<li><star index="2"/><star index="4"/>这个数应该不少</li>
 </random>
 </template>
 </category>
@@ -145,11 +153,11 @@
 <pattern>数字 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="3"/><star index="4"/>这个事的话,我想是很大的一个数吧</li>
+<li><star index="2"/><star index="3"/><star index="4"/>这个数应该不小</li>
+<li><star index="2"/><star index="3"/><star index="4"/>数字适合就好了</li>
+<li><star index="2"/><star index="3"/><star index="4"/>应该是一个适中的数</li>
+<li><star index="2"/><star index="3"/><star index="4"/>这个数应该不少</li>
 </random>
 </template>
 </category>
@@ -163,10 +171,11 @@
 <pattern>数字 OK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>你逼我亮出观点,这不是明显的逼良为娼么</li>
-<li>你逼我说出立场,这不是典型的逼我上梁山么</li>
-<li>让我说出观点,简直比登天还难</li>
-<li>我觉得我不能太轻易地摆出我的观点来</li>
+<li>就你说的事情的数据比较庞大</li>
+<li>你提到的事情所包含的数字挺大的</li>
+<li>按陛下所问,数量极大</li>
+<li>报告大王,很多</li>
+<li>小的真不知道这数是多少</li>
 </random>
 </template>
 </category>

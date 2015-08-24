@@ -107,10 +107,28 @@
 
 
 
+<category>
+<pattern><set>where</set> <set>one</set> * SPLITER ROOT *</pattern>
+<template><srai>选择 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern> * <set>where</set> <set>one</set> * SPLITER ROOT *</pattern>
+<template><srai>选择 SPLITER ROOT <star index="5"/></srai></template>
+</category>
+
+
+
+
+
 
 <category>
 <pattern>选择 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template><srai>选择 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template>选择<srai>选择 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 
@@ -176,7 +194,7 @@
 <li><star index="3"/><star index="4"/>了,我很支持你的选择的</li>
 <li><star index="3"/><star index="4"/>,请问老板你已经做出选择了吗</li>
 <li><star index="3"/><star index="4"/>,老板你的选择好棒啊</li>
-<li><star index="3"/><star index="4"/>,你老板你又让小的见识到了什么叫果断地决择</li>
+<li><star index="3"/><star index="4"/>,老板你又让小的见识到了什么叫果断地决择</li>
 </random>
 </template>
 </category>
@@ -224,7 +242,7 @@
 <li><star index="2"/><star index="3"/><star index="4"/>了,我很支持你的选择的</li>
 <li><star index="2"/><star index="3"/><star index="4"/>,请问老板你已经做出选择了吗</li>
 <li><star index="2"/><star index="3"/><star index="4"/>,老板你的选择好棒啊</li>
-<li><star index="2"/><star index="3"/><star index="4"/>,你老板你又让小的见识到了什么叫果断地决择</li>
+<li><star index="2"/><star index="3"/><star index="4"/>,老板你又让小的见识到了什么叫果断地决择</li>
 </random>
 </template>
 </category>

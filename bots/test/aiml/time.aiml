@@ -51,6 +51,13 @@
 </category>
 
 
+
+<category>
+<pattern>* <set>is</set> <set>where</set> <set>time</set> * SPLITER ROOT *</pattern>
+<template><srai>日期 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+
+
 <category>
 <pattern>* <set>verb</set> <set>verb</set> <set>where</set> <set>time</set> SPLITER ROOT *</pattern>
 <template><srai>日期 SPLITER ROOT <star index="6"/></srai></template>
@@ -60,6 +67,21 @@
 <category>
 <pattern>* <set>verb</set> <set>verb</set> <set>where</set> <set>time</set> * SPLITER ROOT *</pattern>
 <template><srai>日期 SPLITER ROOT <star index="7"/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>* <set>intend</set> <set>what</set> <set>time</set> * SPLITER ROOT *</pattern>
+<template><srai>日期 SPLITER ROOT <star index="6"/></srai></template>
+</category>
+
+
+
+<category>
+<pattern>* <set>time</set> * SPLITER ROOT *</pattern>
+<template><srai>日期 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
@@ -82,11 +104,11 @@
 <pattern>日期 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/>大约在冬季</li>
+<li><star index="2"/>或许是再一个特殊的日子</li>
+<li><star index="2"/>可能是在短特别的岁月吧</li>
+<li><star index="2"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="2"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -99,11 +121,11 @@
 <pattern>日期 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="3"/>大约在冬季</li>
+<li><star index="3"/>或许是再一个特殊的日子</li>
+<li><star index="3"/>可能是在短特别的岁月吧</li>
+<li><star index="3"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="3"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -115,11 +137,11 @@
 <pattern>日期 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="4"/>大约在冬季</li>
+<li><star index="4"/>或许是再一个特殊的日子</li>
+<li><star index="4"/>可能是在短特别的岁月吧</li>
+<li><star index="4"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="4"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -133,11 +155,11 @@
 <pattern>日期 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="3"/><star index="4"/>大约在冬季</li>
+<li><star index="3"/><star index="4"/>或许是再一个特殊的日子</li>
+<li><star index="3"/><star index="4"/>可能是在短特别的岁月吧</li>
+<li><star index="3"/><star index="4"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="3"/><star index="4"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -149,11 +171,11 @@
 <pattern>日期 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="3"/>大约在冬季</li>
+<li><star index="2"/><star index="3"/>或许是再一个特殊的日子</li>
+<li><star index="2"/><star index="3"/>可能是在短特别的岁月吧</li>
+<li><star index="2"/><star index="3"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="2"/><star index="3"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -165,11 +187,11 @@
 <pattern>日期 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="4"/>大约在冬季</li>
+<li><star index="2"/><star index="4"/>或许是再一个特殊的日子</li>
+<li><star index="2"/><star index="4"/>可能是在短特别的岁月吧</li>
+<li><star index="2"/><star index="4"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="2"/><star index="4"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -182,11 +204,11 @@
 <pattern>日期 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li><star index="2"/><star index="3"/><star index="4"/>大约在冬季</li>
+<li><star index="2"/><star index="3"/><star index="4"/>或许是再一个特殊的日子</li>
+<li><star index="2"/><star index="3"/><star index="4"/>可能是在短特别的岁月吧</li>
+<li><star index="2"/><star index="3"/><star index="4"/>也许是在一个值得纪念的日子吧</li>
+<li><star index="2"/><star index="3"/><star index="4"/>的日子不远了</li>
 </random>
 </template>
 </category>
@@ -200,10 +222,11 @@
 <pattern>日期 OK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>你逼我亮出观点,这不是明显的逼良为娼么</li>
-<li>你逼我说出立场,这不是典型的逼我上梁山么</li>
-<li>让我说出观点,简直比登天还难</li>
-<li>我觉得我不能太轻易地摆出我的观点来</li>
+<li>抱歉,人家对日期时间这种事情,真的没有概念啦</li>
+<li>或许老天知道这个日子的时间吧</li>
+<li>表问我这个时间了了,我知道国庆节是十月一号</li>
+<li>或许我的电子时钟会帮你解决这个答案</li>
+<li>也许就是再想你的日子里</li>
 </random>
 </template>
 </category>

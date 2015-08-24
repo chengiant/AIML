@@ -214,8 +214,6 @@
 
 
 
-
-
 <category>
 <pattern>地方 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>地方<srai>地方 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
@@ -229,11 +227,11 @@
 <pattern>地方 ZOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/>这地方</li>
-<li>有关<star index="2"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/>这地方,我也不知道地处何方</li>
+<li>有关<star index="2"/>这个,我是个路痴,一提到地方我就迷糊</li>
+<li>对于<star index="2"/>来说,我真不知道在什么地方</li>
+<li>关于<star index="2"/>的话,等等我去拿个GPS定位仪来</li>
+<li>要问<star index="2"/>的话,在中国用百度地图,外国用谷歌地图,小地方就找熟人打听,要是一个抽象的地方,我也没办法了</li>
 </random>
 </template>
 </category>
@@ -246,11 +244,11 @@
 <pattern>地方 WOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="3"/>的地方太多了,就看你的具体需求了</li>
+<li>有关<star index="3"/>的地方嘛,我还真不太清楚</li>
+<li>对于<star index="3"/>的地方,我还不太了解呢</li>
+<li>关于<star index="3"/>的地方,我还真不敢给你说,我会找不到北的</li>
+<li>关于<star index="3"/>的地方,我还真的不知道哎</li>
 </random>
 </template>
 </category>
@@ -262,11 +260,11 @@
 <pattern>地方 BOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="4"/>的地方太多了,就看你的具体需求了</li>
+<li>有关<star index="4"/>的地方嘛,我还真不太清楚</li>
+<li>对于<star index="4"/>的地方,我还不太了解呢</li>
+<li>关于<star index="4"/>的地方,我还真不敢给你说,我会找不到北的</li>
+<li>在<star index="4"/>的地方,我还真的不知道哎</li>
 </random>
 </template>
 </category>
@@ -280,11 +278,11 @@
 <pattern>地方 WBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="3"/><star index="4"/>的地方太多了,就看你的具体需求了</li>
+<li>有关<star index="3"/><star index="4"/>的地方嘛,我还真不太清楚</li>
+<li>对于<star index="3"/><star index="4"/>的地方,我还不太了解呢</li>
+<li>关于<star index="3"/><star index="4"/>的地方,我还真不敢给你说,我会找不到北的</li>
+<li><star index="3"/><star index="4"/>的地方,我还真的不知道哎</li>
 </random>
 </template>
 </category>
@@ -296,11 +294,11 @@
 <pattern>地方 ZWOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/><star index="3"/>的地方太多了,就看你的具体需求了</li>
+<li>有关<star index="2"/><star index="3"/>的地方嘛,我还真不太清楚</li>
+<li>对于<star index="2"/><star index="3"/>的地方,我还不太了解呢</li>
+<li>关于<star index="2"/><star index="3"/>的地方,我还真不敢给你说,我会找不到北的</li>
+<li><star index="2"/><star index="3"/>的地方,我还真的不知道哎</li>
 </random>
 </template>
 </category>
@@ -312,11 +310,11 @@
 <pattern>地方 ZBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/><star index="4"/>的地方太多了,就看你的具体需求了</li>
+<li>有关<star index="2"/><star index="4"/>的地方嘛,我还真不太清楚</li>
+<li>对于<star index="2"/><star index="4"/>的地方,我还不太了解呢</li>
+<li>关于<star index="2"/><star index="4"/>的的地方,我还真不敢给你说,我会找不到北的</li>
+<li><star index="2"/><star index="4"/>的地方,我还真的不知道哎</li>
 </random>
 </template>
 </category>
@@ -329,11 +327,11 @@
 <pattern>地方 ZWBOK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>,我有权保留我的观点</li>
-<li>有关<star index="2"/><star index="3"/><star index="4"/>的事情,我的态度中立</li>
-<li>对于<star index="2"/><star index="3"/><star index="4"/>这个事儿嘛,我觉得还好啦</li>
-<li>关于<star index="2"/><star index="3"/><star index="4"/>的话,非要让我给出观点,我也只能说勉勉强强了</li>
-<li>在<star index="2"/><star index="3"/><star index="4"/>这个事儿上,我有权保持我的态度</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>的地方太多了,就看你的具体需求了</li>
+<li>有关<star index="2"/><star index="3"/><star index="4"/>的地方嘛,我还真不太清楚</li>
+<li>对于<star index="2"/><star index="3"/><star index="4"/>的地方,我还不太了解呢</li>
+<li>关于<star index="2"/><star index="3"/><star index="4"/>的地方,我还真不敢给你说,我会找不到北的</li>
+<li><star index="2"/><star index="3"/><star index="4"/>的地方,我还真的不知道哎</li>
 </random>
 </template>
 </category>
@@ -347,10 +345,10 @@
 <pattern>地方 OK SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
 <template>
 <random>
-<li>你逼我亮出观点,这不是明显的逼良为娼么</li>
-<li>你逼我说出立场,这不是典型的逼我上梁山么</li>
-<li>让我说出观点,简直比登天还难</li>
-<li>我觉得我不能太轻易地摆出我的观点来</li>
+<li>我的方向感很差得,不知道你说的地方在哪里</li>
+<li>你别起伏一个路痴了好吗,我真不知道这地方在哪</li>
+<li>我对你说的地方一无所知啊</li>
+<li>关键是你说的地方,我也不知道在哪</li>
 </random>
 </template>
 </category>
