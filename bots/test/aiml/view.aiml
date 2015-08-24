@@ -130,7 +130,7 @@
 
 <category>
 <pattern>观点 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>观点<srai>观点 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template><srai>观点 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 

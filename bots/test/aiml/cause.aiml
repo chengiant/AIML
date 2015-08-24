@@ -104,7 +104,7 @@
 
 <category>
 <pattern>* <set>verb</set> * <set>backwd</set> <set>cause</set> <set>is</set> <set>what</set> SPLITER ROOT *</pattern>
-<template><srai>因为 SPLITER ROOT <star index="7"/></srai></template>
+<template><srai>因为 SPLITER ROOT <star index="8"/></srai></template>
 </category>
 //我爱你  的  原因    是     什么
 
@@ -122,7 +122,7 @@
 
 <category>
 <pattern>因为 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>因为<srai>因为 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template><srai>因为 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 
@@ -137,7 +137,7 @@
 <li><star index="3"/>这其中的原因嘛,天机不可泄露!</li>
 <li><star index="3"/>的事实就是原因</li>
 <li><star index="3"/>这原因让我想的好头大,啊啊啊!</li>
-<li>有关<star index="2"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="2"/>的原因,不造啊,要不我给你打听打听</li>
 </random>
 </template>
 </category>
@@ -153,7 +153,7 @@
 <li><star index="3"/>的原因嘛,嘻嘻,我不懂哎!</li>
 <li><star index="3"/>这其中的原因嘛,天机不可泄露!</li>
 <li><star index="3"/>的事实就是原因</li>
-<li>有关<star index="3"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="3"/>的原因,不造啊,要不我给你打听打听</li>
 <li><star index="3"/>这原因让我想的好头大,啊啊啊!</li>
 </random>
 </template>
@@ -169,7 +169,7 @@
 <li><star index="4"/>的原因嘛,嘻嘻,我不懂哎!</li>
 <li><star index="4"/>这其中的原因嘛,天机不可泄露!</li>
 <li><star index="4"/>的事实就是原因</li>
-<li>有关<star index="4"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="4"/>的原因,不造啊,要不我给你打听打听</li>
 <li><star index="4"/>这原因让我想的好头大,啊啊啊!</li>
 </random>
 </template>
@@ -187,7 +187,7 @@
 <li><star index="3"/> <star index="4"/>的原因嘛,嘻嘻,我不懂哎!</li>
 <li><star index="3"/><star index="4"/>这其中的原因嘛,天机不可泄露!</li>
 <li><star index="3"/><star index="4"/>的事实就是原因</li>
-<li>有关<star index="3"/><star index="4"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="3"/><star index="4"/>的原因,不造啊,要不我给你打听打听</li>
 <li><star index="3"/><star index="4"/>这原因让我想的好头大,啊啊啊!</li>
 </random>
 </template>
@@ -203,7 +203,7 @@
 <li><star index="2"/><star index="3"/>的原因嘛,嘻嘻,我不懂哎!</li>
 <li><star index="2"/><star index="3"/>这其中的原因嘛,天机不可泄露!</li>
 <li><star index="2"/><star index="3"/>的事实就是原因</li>
-<li>有关<star index="2"/><star index="3"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="2"/><star index="3"/>的原因,不造啊,要不我给你打听打听</li>
 <li><star index="2"/><star index="3"/>这原因让我想的好头大,啊啊啊!</li>
 </random>
 </template>
@@ -219,11 +219,14 @@
 <li><star index="2"/><star index="4"/>的原因嘛,嘻嘻,我不懂哎!</li>
 <li><star index="2"/><star index="4"/>这其中的原因嘛,天机不可泄露!</li>
 <li><star index="2"/><star index="4"/>的事实就是原因</li>
-<li>有关<star index="2"/><star index="4"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="2"/><star index="4"/>的原因,不造啊,要不我给你打听打听</li>
 <li><star index="2"/><star index="4"/>这原因让我想的好头大,啊啊啊!</li>
 </random>
 </template>
 </category>
+
+
+
 
 
 //主谓宾都有的情况
@@ -234,7 +237,7 @@
 <li><star index="2"/><star index="3"/><star index="4"/>的原因嘛,嘻嘻,我不懂哎!</li>
 <li><star index="2"/><star index="3"/><star index="4"/>,这其中的原因嘛,天机不可泄露!</li>
 <li><star index="2"/><star index="3"/><star index="4"/>的事实就是原因</li>
-<li>有关<star index="2"/><star index="3"/><star index="4"/>的原因,不造啊,要不你问问我爹地</li>
+<li>有关<star index="2"/><star index="3"/><star index="4"/>的原因,不造啊,要不我给你打听打听</li>
 <li><star index="2"/><star index="3"/><star index="4"/>,这原因让我想的好头大,啊啊啊!</li>
 </random>
 </template>

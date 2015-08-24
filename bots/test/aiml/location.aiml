@@ -45,7 +45,7 @@
 
 <category>
 <pattern>* <set>prep</set> <set>where</set> SPLITER ROOT *</pattern>
-<template><srai>地方 SPLITER ROOT <star index="5"/></srai></template>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
 </category>
 
 
@@ -56,7 +56,7 @@
 
 <category>
 <pattern>* 从 哪 * SPLITER ROOT *</pattern>
-<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
+<template><srai>地方 SPLITER ROOT <star index="3"/></srai></template>
 </category>
 
 <category>
@@ -148,6 +148,18 @@
 //你在什么地方？
 
 
+
+
+<category>
+<pattern>* <set>where</set> * SPLITER ROOT *</pattern>
+<template><srai>地方 SPLITER ROOT <star index="4"/></srai></template>
+</category>
+
+
+
+
+
+
 <category>
 <pattern>* <set>verb</set> * <set>prep</set> <set>where</set> SPLITER ROOT *</pattern>
 <template><srai>地方 SPLITER ROOT <star index="6"/></srai></template>
@@ -210,13 +222,9 @@
 
 
 
-
-
-
-
 <category>
 <pattern>地方 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>地方<srai>地方 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template><srai>地方 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 

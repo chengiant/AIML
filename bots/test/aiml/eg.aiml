@@ -68,7 +68,7 @@
 
 <category>
 <pattern><set>where</set> <set>eg</set> SPLITER ROOT *</pattern>
-<template><srai>举例 SPLITER ROOT <star index="4"/></srai></template>
+<template><srai>举例 SPLITER ROOT <star index="3"/></srai></template>
 </category>
 
 
@@ -129,7 +129,7 @@
 
 <category>
 <pattern>举例 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>举例<srai>举例 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template><srai>举例 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 
 

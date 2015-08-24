@@ -51,7 +51,7 @@
 
 <category>
 <pattern>* <set>view</set> * <set>how</set> <set>method</set> SPLITER ROOT *</pattern>
-<template><srai>方法 SPLITER ROOT <star index="4"/></srai></template>
+<template><srai>方法 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
 //不想扔的书怎么处理
@@ -59,7 +59,7 @@
 
 <category>
 <pattern>* <set>verb</set> * <set>method</set> * <set>what</set> SPLITER ROOT *</pattern>
-<template><srai>方法 SPLITER ROOT <star index="4"/></srai></template>
+<template><srai>方法 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 
 //除甲醛最 好 的  方法 是 什么
@@ -87,7 +87,7 @@
 
 <category>
 <pattern>* <set>is</set> <set>how</set> * <set>backwd</set> * SPLITER ROOT *</pattern>
-<template><srai>方法 SPLITER ROOT <star index="6"/></srai></template>
+<template><srai>方法 SPLITER ROOT <star index="7"/></srai></template>
 </category>
 
 
@@ -185,9 +185,18 @@
 
 
 
+<category>
+<pattern>* <set>method</set> SPLITER ROOT *</pattern>
+<template>莫慌,我正在想方法法</template>
+</category>
+
+
+
+
+
 
 <category>
-<pattern><set>where</set> <set>one</set> * <set>how</set> <set>verb</set>SPLITER ROOT *</pattern>
+<pattern><set>where</set> <set>one</set> * <set>how</set> <set>verb</set> SPLITER ROOT *</pattern>
 <template><srai>方法 SPLITER ROOT <star index="6"/></srai></template>
 </category>
 
@@ -201,7 +210,7 @@
 
 <category>
 <pattern>方法 SPLITER ROOT * ZhuYu * Weiyu * BinYu * Tag *</pattern>
-<template>方法<srai>方法 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
+<template><srai>方法 <srai>CHECKNULL <input/></srai> SPLITER ROOT <star index="1"/> ZhuYu <star index="2"/> Weiyu <star index="3"/> BinYu <star index="4"/> Tag <star index="5"/></srai></template>
 </category>
 //匹配 如 何...
 
